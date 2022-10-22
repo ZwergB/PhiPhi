@@ -1,6 +1,6 @@
 {
     "title": "Hier steht ein Titel",
-    "firstChapter": 0,
+    "firstChapter": 1,
     "story": [
     {
         "id": 1,
@@ -186,23 +186,23 @@
                 "actionText": "Verfalle in Panik",
                 "resultText": [
                     "<b>Du fuchtelst mit den Armen und versuchst eine algemeine Panik auszulösen </b>",
-                    "Du reichst ihr deinen Arm und ziehst sie hoch.",
-                    "Ein lautes ratschen lässt dich erkennen, dass du dabei auf ihrem Umhang gestanden hasst.",
-                    "Panik steigt in dir auf."
+                    "Die Dämonin lacht und der ganze Kult fängt an dich auszulachen.",
+                    "Sie lässt den unbrauchbaren Mantel liegen und schreitet anmutig zum Festmahl.",
+                    "Du läufst den anderen bedröppelt hinterher."
                 ],
-                "image": "/assets/skizzen/objekte/scene03daemon.png",
+                "image": "/assets/skizzen/objekte/scene04panik.png",
                 "position": {
                     "x": 830,
                     "y": 430
                 },
-                "next": 4
+                "next": 5
             },
             {
-                "actionText": "Bring ihr ein Getränk",
+                "actionText": "Biete deinen Mantel an",
                 "resultText": [
-                    "<b>Du hohlst ihr was zu trinken. </b>",
-                    "Als du ihr den Kelch an ihre Lippen hällst schüttest du außversehen den Wein auf ihren Umhang",
-                    "Panik steigt in dir auf."
+                    "<b>Du prbierst schnell ihr stattdessen deinen Mantel zu reichen. </b>",
+                    "Du löst die Schnalle, um ihn von deinen Schultern zu lösen."
+                    "Doch gerade jene schnalle bleibt nun an deinen restlichen Gewändern hängen und dein Mantel fällt auf den Boden."
                 ],
                 "image": "/assets/skizzen/objekte/scene03trinken.png",
                 "position": {
