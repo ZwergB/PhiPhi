@@ -59,7 +59,7 @@ function openStoryScreen(screen) {
 
 
 function setBackground(path) {
-    document.getElementById('background').querySelector('img').src = 'bg.png';
+    document.getElementById('background').querySelector('img').src = path;
 }
 
 function createActionElement(element) {

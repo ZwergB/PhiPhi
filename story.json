@@ -4,7 +4,7 @@
     "story": [
     {
         "id": 0,
-        "backgroundImage": "bg.png",
+        "backgroundImage": "/assets/skizzen/backgrounds/scene2.png",
         "texts": [ 
             "Hier steht der TExt der ersten Zeile.",
             "Hier steht der Text der zweiten Zeile."
@@ -13,7 +13,7 @@
             {
                 "actionText": "Text einer Möglichkeit",
                 "resultText": "Text nach einer Option",
-                "image": "bg1.png",
+                "image": "scene2katze.png",
                 "position": {
                     "x": 200,
                     "y": 400
