@@ -206,7 +206,7 @@
                     "Die Dömonin ignoriert dich und schreitet einfach über deinen Mantel rüber.",
                     "Die restlichen Kultisten folgen ihren anmutigen Schritten."
                 ],
-                "image": "/assets/skizzen/objekte/scene04mantel.png",
+                "image": "/assets/skizzen/objekte/scene04umhang.png",
                 "position": {
                     "x": 700,
                     "y": 400
@@ -221,39 +221,141 @@
         "id": 5,
         "backgroundImage": "/assets/skizzen/backgrounds/scene05.png",
         "texts": [ 
-            "Du willst nicht den Zorn des ganzen Kultes auf dich ziehen."
+            "Drinnen angekommen baut sich ein reich gedecktes Bankett auf.",
+            "Der Duft unzähliger Speisen steigt dir in die Nase."
         ],
         "interaction": [
             {
-                "actionText": "Verfalle in Panik",
+                "actionText": "Reiche den anderen Essen",
                 "resultText": [
-                    "<b>Du fuchtelst mit den Armen und versuchst eine algemeine Panik auszulösen </b>",
-                    "Die Dämonin lacht und der ganze Kult fängt an dich auszulachen.",
-                    "Sie lässt den unbrauchbaren Mantel liegen und schreitet anmutig zum Festmahl.",
-                    "Du läufst den anderen bedröppelt hinterher."
+                    "<b>Du nimmst dir eine Spieseplatte, um den anderen Essen anzubieten. </b>",
+                    "Gerade drehst du dich um, damit sich alle bedienen können, da rutscht das Essen von der Platte und die Umstehenden schauen dich wütend an.",
+                    "Du solltest besser den Raum verlassen, bevor alle mitbekommen, dass du auch noch das Festessen ruiniert hast."
                 ],
-                "image": "/assets/skizzen/objekte/scene04panik.png",
+                "image": "/assets/skizzen/objekte/scene05servieren.png",
                 "position": {
                     "x": 830,
                     "y": 430
                 },
-                "next": 5
+                "next": 7
             },
             {
-                "actionText": "Biete deinen Mantel an",
+                "actionText": "Nimm dir essen",
                 "resultText": [
-                    "<b>Du prbierst schnell ihr stattdessen deinen Mantel zu reichen. </b>",
-                    "Du löst die Schnalle, um ihn von deinen Schultern zu lösen.",
-                    "Doch gerade jene schnalle bleibt nun an deinen restlichen Gewändern hängen und dein Mantel fällt auf den Boden.",
-                    "Die Dömonin ignoriert dich und schreitet einfach über deinen Mantel rüber.",
-                    "Die restlichen Kultisten folgen ihren anmutigen Schritten."
+                    "<b>Du kannst den leckeren Speisen nicht länger wiederstehen und stibitzt dir was vom Tisch. </b>",
+                    "Damit dich niemand bemerkt, steckst du dir schnell die ganze Portion in deinen Mund.",
+                    "Leider hast du dabei das Atmen vergessen. Du verschluckst dich und beginnst zu husten.",
+                    "Um nicht die ganze Prozedur aufzuhalten gehst du schnell nach draußen."
                 ],
-                "image": "/assets/skizzen/objekte/scene04mantel.png",
+                "image": "/assets/skizzen/objekte/scene05essen.png",
                 "position": {
                     "x": 700,
                     "y": 400
                 },
-                "next": 5
+                "next": 7
+            },
+            {
+                "actionText": "Flirte mit der Dämonin",
+                "resultText": [
+                    "<b>Du sagst einen koketten Spruch zu der Dämonin. </b>",
+                    "Sie scheint gerade alles zu wollen, außer deine Anmachversuche zu erwidern.",
+                    "Mit einem tötendem Blick schaut sie dich an.",
+                    "Ihre Hand schnellt nach vorne und sie ruft Worte, die du nicht verstehen kannst.",
+                    "Du wartest darauf, dass dich der Schlag trifft, doch nichts passiert.",
+                    "Eine algemeine Unruhe entsteht"
+                ],
+                "image": "/assets/skizzen/objekte/scene05flirten.png",
+                "position": {
+                    "x": 700,
+                    "y": 400
+                },
+                "next": 8
+            }
+        ]
+
+        
+    },
+    {
+        "id": 7,
+        "backgroundImage": "/assets/skizzen/backgrounds/scene07.png",
+        "texts": [ 
+            "Draußen schlägt dir die kühle Nachtluft entgegen.",
+            "Das hätte drnnen ganzschön peinlich werden können.",
+            "Plötzlich hörst du Unruhe von drinnen."
+            "Was dort wohl vor sich geht?"
+        ],
+        "interaction": [
+            {
+                "actionText": "Schaue drinnen nach",
+                "resultText": [
+                    "<b>Du gehst willst wieder rein um nachzusehen, was dort vor sich geht. </b>",
+                    "Als du zur Tür gehst kommen dir panisch die restlichen Kultisten entgegen.",
+                    "Du siehst, wie dei Dämonin versucht irgendwas in die Luft zu Hexen, doch nichts passiert.",
+                    "Anscheinend fehlen ihr jegliche Dämonischen Kräfte.",
+                    "Das erklärt auch, warum die anderen Kultisten so panisch waren."
+                ],
+                "image": "/assets/skizzen/objekte/scene07rein.png",
+                "position": {
+                    "x": 830,
+                    "y": 430
+                },
+                "next": 8
+            },
+            {
+                "actionText": "Gehe weg",
+                "resultText": [
+                    "<b>Was auch immer dort vor sich geht, du willst damit nichts zu tun haben und gehst weg von den Feierlichkeiten. </b>",
+                    "Bestimmt geben wieder alle dir die Schuld und dabei hast du doch garnichts gemacht."
+                ],
+                "image": "/assets/skizzen/objekte/scene07weg.png",
+                "position": {
+                    "x": 700,
+                    "y": 400
+                },
+                "next": 9
+            }
+        ]
+
+        
+    },
+    {
+        "id": 8,
+        "backgroundImage": "/assets/skizzen/backgrounds/scene08.png",
+        "texts": [ 
+            "Draußen schlägt dir die kühle Nachtluft entgegen.",
+            "Das hätte drnnen ganzschön peinlich werden können.",
+            "Plötzlich hörst du Unruhe von drinnen."
+            "Was dort wohl vor sich geht?"
+        ],
+        "interaction": [
+            {
+                "actionText": "Schaue drinnen nach",
+                "resultText": [
+                    "<b>Du gehst willst wieder rein um nachzusehen, was dort vor sich geht. </b>",
+                    "Als du zur Tür gehst kommen dir panisch die restlichen Kultisten entgegen.",
+                    "Du siehst, wie dei Dämonin versucht irgendwas in die Luft zu Hexen, doch nichts passiert.",
+                    "Anscheinend fehlen ihr jegliche Dämonischen Kräfte.",
+                    "Das erklärt auch, warum die anderen Kultisten so panisch waren."
+                ],
+                "image": "/assets/skizzen/objekte/scene07rein.png",
+                "position": {
+                    "x": 830,
+                    "y": 430
+                },
+                "next": 8
+            },
+            {
+                "actionText": "Gehe weg",
+                "resultText": [
+                    "<b>Was auch immer dort vor sich geht, du willst damit nichts zu tun haben und gehst weg von den Feierlichkeiten. </b>",
+                    "Bestimmt geben wieder alle dir die Schuld und dabei hast du doch garnichts gemacht."
+                ],
+                "image": "/assets/skizzen/objekte/scene07weg.png",
+                "position": {
+                    "x": 700,
+                    "y": 400
+                },
+                "next": 9
             }
         ]
 
