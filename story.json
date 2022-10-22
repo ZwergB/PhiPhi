@@ -15,7 +15,7 @@
             {
                 "actionText": "Hilf mit, die Kerzen zu plzieren",
                 "resultText": [
-                    "<b>Du holst die Kerzen </b>",
+                    "Du holst die Kerzen",
                     "Als du wieder zurück willst, stolperst du über deine Füße und verteilst die Kerzen auf dem Boden",
                     "Pass besser auf, dass das nicht gleich beim Ritual passiert!"
                 ],
@@ -29,7 +29,7 @@
             {
                 "actionText": "Setze dich, damit du nicht im Weg bist",
                 "resultText": [
-                    "<b>Du setzt dich auf den Boden. </b>",
+                    "Du setzt dich auf den Boden.",
                     "Leider ist diese Stelle alles, nur nicht aus dem Weg.",
                     "Mehrmals stolpern andere Kultisten fast über dich, wärend sie das Ritual vorbereiten.",
                     "Pass zumindest auf, dass du gleich beim Ritual nicht im Weg bist."
@@ -44,7 +44,7 @@
             {
                 "actionText": "Hilf mit, das Pentagramm zu malen",
                 "resultText": [
-                    "<b>Du nimmst dir rote Farbe </b>",
+                    "Du nimmst dir rote Farbe",
                     "Als du aufstehst, um an der nächsten Stelle zu mahlen, trittst du auf deinen Umhang und verschüttest das Pulver",
                     "Ihr habt zwar noch genug Pulver, um den Ritualkreis zu beenden, aber es hat schon seinen Grund, dass du beim eigentlichen Ritual keine Aufgabe bekommen hast."
                 ],
@@ -71,7 +71,7 @@
             {
                 "actionText": "Locke die Katze an",
                 "resultText": [
-                    "<b>Du machst fieb Geräusche mit deinem Mund </b>",
+                    "Du machst fieb Geräusche mit deinem Mund",
                     "Plätzlich verschluckst du dich dabei.",
                     "Du musst husten und die Katze rennt weg.",
                     "Immerhin kann sie jetzt nicht mehr das Ritual stören."
@@ -86,7 +86,7 @@
             {
                 "actionText": "Zünde die Kerzen wieder an",
                 "resultText": [
-                    "<b>Du entfachst ein Schwefelholz, um damit die Kerze wieder zu entzünden. </b>",
+                    "Du entfachst ein Schwefelholz, um damit die Kerze wieder zu entzünden.",
                     "Doch das Hölzchen brennt besser als erwartet.",
                     "Du verbrennst dir die Finger und lässt es fallen.",
                     "Das Zündholz erlischt und auch das ausgehen der Kerzen lässt sich somit nicht mehr aufhalten.",
@@ -102,7 +102,7 @@
             {
                 "actionText": "Sage selbst die Beschwörung",
                 "resultText": [
-                    "<b>Du drückst euren Anführer weg</b>",
+                    "Du drückst euren Anführer weg",
                     "Wärend du ließt verschwimmen die Buchstaben vor deinem Auge.",
                     "Um nicht wie ein Idiot da zu stehen, denkst du dir den Text aus und redest einfach immer weiter.",
                     "Ein Großes Schwarzes Loch frisst alles auf."
@@ -129,7 +129,7 @@
             {
                 "actionText": "Hilf der Dämonin auf",
                 "resultText": [
-                    "<b>Um deine Treue unter beweis zu stellen, eilst du direkt zu ihr. </b>",
+                    "Um deine Treue unter beweis zu stellen, eilst du direkt zu ihr.",
                     "Du reichst ihr deinen Arm und ziehst sie hoch.",
                     "Ein lautes ratschen lässt dich erkennen, dass du dabei auf ihrem Umhang gestanden hasst.",
                     "Panik steigt in dir auf."
@@ -144,7 +144,7 @@
             {
                 "actionText": "Bring ihr ein Getränk",
                 "resultText": [
-                    "<b>Du hohlst ihr was zu trinken. </b>",
+                    "Du hohlst ihr was zu trinken.",
                     "Als du ihr den Kelch an ihre Lippen hällst schüttest du außversehen den Wein auf ihren Umhang",
                     "Panik steigt in dir auf."
                 ],
@@ -158,7 +158,7 @@
             {
                 "actionText": "Laufe vor zum Festessen",
                 "resultText": [
-                    "<b>Du rennst los, um als erster beim Festmahl zu sein.</b>",
+                    "Du rennst los, um als erster beim Festmahl zu sein.",
                     "Dabei rutscht du auß und hinterlässt eine Schneise der Verwüstung.",
                     "Immerhin ist jetzt eine Schneise da, durch die die Dämonin schreiten kann",
                     "Anmutig erhebt sie sich und streift dabei ihren Umhang ab.",
@@ -185,7 +185,7 @@
             {
                 "actionText": "Verfalle in Panik",
                 "resultText": [
-                    "<b>Du fuchtelst mit den Armen und versuchst eine algemeine Panik auszulösen </b>",
+                    "Du fuchtelst mit den Armen und versuchst eine algemeine Panik auszulösen",
                     "Die Dämonin lacht und der ganze Kult fängt an dich auszulachen.",
                     "Sie lässt den unbrauchbaren Mantel liegen und schreitet anmutig zum Festmahl.",
                     "Du läufst den anderen bedröppelt hinterher."
@@ -200,7 +200,7 @@
             {
                 "actionText": "Biete deinen Mantel an",
                 "resultText": [
-                    "<b>Du prbierst schnell ihr stattdessen deinen Mantel zu reichen. </b>",
+                    "Du prbierst schnell ihr stattdessen deinen Mantel zu reichen.",
                     "Du löst die Schnalle, um ihn von deinen Schultern zu lösen.",
                     "Doch gerade jene schnalle bleibt nun an deinen restlichen Gewändern hängen und dein Mantel fällt auf den Boden.",
                     "Die Dämonin ignoriert dich und schreitet einfach über deinen Mantel rüber.",
@@ -228,7 +228,7 @@
             {
                 "actionText": "Reiche den anderen Essen",
                 "resultText": [
-                    "<b>Du nimmst dir eine Spieseplatte, um den anderen Essen anzubieten. </b>",
+                    "Du nimmst dir eine Spieseplatte, um den anderen Essen anzubieten.",
                     "Gerade drehst du dich um, damit sich alle bedienen können, da rutscht das Essen von der Platte und die Umstehenden schauen dich wütend an.",
                     "Du solltest besser den Raum verlassen, bevor alle mitbekommen, dass du auch noch das Festessen ruiniert hast."
                 ],
@@ -242,7 +242,7 @@
             {
                 "actionText": "Nimm dir essen",
                 "resultText": [
-                    "<b>Du kannst den leckeren Speisen nicht länger wiederstehen und stibitzt dir was vom Tisch. </b>",
+                    "Du kannst den leckeren Speisen nicht länger wiederstehen und stibitzt dir was vom Tisch.",
                     "Damit dich niemand bemerkt, steckst du dir schnell die ganze Portion in deinen Mund.",
                     "Leider hast du dabei das Atmen vergessen. Du verschluckst dich und beginnst zu husten.",
                     "Um nicht die ganze Prozedur aufzuhalten gehst du schnell nach draußen."
@@ -257,7 +257,7 @@
             {
                 "actionText": "Flirte mit der Dämonin",
                 "resultText": [
-                    "<b>Du sagst einen koketten Spruch zu der Dämonin. </b>",
+                    "Du sagst einen koketten Spruch zu der Dämonin.",
                     "Sie scheint gerade alles zu wollen, außer deine Anmachversuche zu erwidern.",
                     "Mit einem tötendem Blick schaut sie dich an.",
                     "Ihre Hand schnellt nach vorne und sie ruft Worte, die du nicht verstehen kannst.",
@@ -289,7 +289,7 @@
             {
                 "actionText": "Schaue drinnen nach",
                 "resultText": [
-                    "<b>Du gehst willst wieder rein um nachzusehen, was dort vor sich geht. </b>",
+                    "Du gehst willst wieder rein um nachzusehen, was dort vor sich geht.",
                     "Als du zur Tür gehst kommen dir panisch die restlichen Kultisten entgegen.",
                     "Du siehst, wie dei Dämonin versucht irgendwas in die Luft zu Hexen, doch nichts passiert.",
                     "Anscheinend fehlen ihr jegliche Dämonischen Kräfte.",
@@ -305,7 +305,7 @@
             {
                 "actionText": "Gehe weg",
                 "resultText": [
-                    "<b>Was auch immer dort vor sich geht, du willst damit nichts zu tun haben und gehst weg von den Feierlichkeiten. </b>",
+                    "Was auch immer dort vor sich geht, du willst damit nichts zu tun haben und gehst weg von den Feierlichkeiten.",
                     "Bestimmt geben wieder alle dir die Schuld und dabei hast du doch garnichts gemacht."
                 ],
                 "image": "./assets/skizzen/objekte/scene07weg.png",
@@ -332,7 +332,7 @@
             {
                 "actionText": "Mach einen Witz zur auflockerung",
                 "resultText": [
-                    "<b>'Wir können das Ritual doch einfach nochmal rückwärts durchführen', scherzt du.</b>",
+                    "'Wir können das Ritual doch einfach nochmal rückwärts durchführen', scherzt du.",
                     "Doch keiner scheint die Ironie in deiner Stimme zu hören.",
                     "Nach und nach schauen dich die anderen fasziniert an und beginnen zu nicken.",
                     "Sie scheinen vollkommen überzeugt, das Ritual nochmals rückwärts durchzuführen.",
@@ -348,7 +348,7 @@
             {
                 "actionText": "Schaue dich um",
                 "resultText": [
-                    "<b>Du willst auf den Felsen klettern, um dich umzuschauen. </b>",
+                    "Du willst auf den Felsen klettern, um dich umzuschauen.",
                     "Doch direkt nach dem ersten Meter entdechst du große Kratzspuren die an dem Felsen sind."
                 ],
                 "image": "./assets/skizzen/objekte/scene08fels.png",
@@ -375,11 +375,11 @@
             {
                 "actionText": "Katze locken",
                 "resultText": [
-                    "<b>Du legst was zu Essen auf den Boden.</b>",
+                    "Du legst was zu Essen auf den Boden.",
                     "Nach kurzem Warten kommt auch ein Tier, um die Nahrung zu fressen.",
                     "Jedoch ist es keine Katze, sondern eine Maus.",
                     "Dir bleibt wohl nichts anderes Übrig, als dich auf die Suche zu machen.",
-                    "<b>Du begibst dich auf die Suche nach Spuren. </b>",
+                    "Du begibst dich auf die Suche nach Spuren.",
                     "Doch direkt nach dem ersten Meter entdechst du große Kratzspuren die an dem Felsen sind."
                     
                 ],
@@ -393,7 +393,7 @@
             {
                 "actionText": "Suche nach Spuren der Katze",
                 "resultText": [
-                    "<b>Du begibst dich auf die Suche nach Spuren. </b>",
+                    "Du begibst dich auf die Suche nach Spuren.",
                     "Doch direkt nach dem ersten Meter entdechst du große Kratzspuren die an dem Felsen sind."
                 ],
                 "image": "./assets/skizzen/objekte/scene08fels.png",
@@ -418,7 +418,7 @@
             {
                 "actionText": "Laterne holen",
                 "resultText": [
-                    "<b>Du holst die Laterne und stellst sie auf dem Pult neben dem Buch ab.</b>",
+                    "Du holst die Laterne und stellst sie auf dem Pult neben dem Buch ab.",
                     "Leider war der Stand der Laterne aber nicht so sicher, wie du gedacht hattest.",
                     "Mit einem lauten klirren fällt die Laterne zu Boden und entzündet die Kerzen",
                     "Du füllt ein Rauschen deinen Kopf und du siehst einen roten Wirbel im Ritualkreis.",
@@ -436,7 +436,7 @@
             {
                 "actionText": "Dämonin holen",
                 "resultText": [
-                    "<b>Du rufst den namen der Dämonin, auch wenn dir nicht bewusst ist, woher du ihn weißt. </b>",
+                    "Du rufst den namen der Dämonin, auch wenn dir nicht bewusst ist, woher du ihn weißt.",
                     "So schnell wie er dir im Gedächnis erschienen war, so schnell verschwindet der Name aus deinen Gedanken aber auch wieder.",
                     "Stattdessen füllt jetzt ein Rauschen deinen Kopf und du siehst einen roten Wirbel im Ritualkreis.",
                     "Du hörst ein markerschütterndes Brüllen.",
@@ -464,7 +464,7 @@
             {
                 "actionText": "An Monster anschleichen",
                 "resultText": [
-                    "<b>Du versuchst dich anzuschleichen und ein trittst auf einen Ast.</b>",
+                    "Du versuchst dich anzuschleichen und ein trittst auf einen Ast.",
                     "Ein lautes Knacken ertönt.",
                     "Schneller als du schreien kannst stürzen sich dämonische Klauen auf dich.",
                     "Und mit einem Hieb trennt sich dein Kopf von deinem Körper."
@@ -480,7 +480,7 @@
             {
                 "actionText": "heimlich weg gehen",
                 "resultText": [
-                    "<b>Du versuchst dich weg zu schleichen und trittst auf einen Ast. </b>",
+                    "Du versuchst dich weg zu schleichen und trittst auf einen Ast.",
                     "Du hörst ein markerschütterndes Brüllen hinter dir.",
                     "Ohne dich umzudrehen hechtest du auf den nächsten Felsen."
                 ],
@@ -508,7 +508,7 @@
             {
                 "actionText": "Fliehen",
                 "resultText": [
-                    "<b>Du machst einen ausgefallenen Sprung weg von der Bestie.</b>",
+                    "Du machst einen ausgefallenen Sprung weg von der Bestie.",
                     "Dein Fuß erwischt aber nur gerümpel.",
                     "Statt dich von dem Felsen weg zu stoßen, stößt du Steine los.",
                     "In einer Kettenreaktion lösen sich immer mehr Steine, die auf das Ungetüm hinabsausen.",
@@ -528,7 +528,7 @@
             {
                 "actionText": "Auf Bestie springen",
                 "resultText": [
-                    "<b>Du machst einen ausgefallenen Sprung auf die Bestie zu.</b>",
+                    "Du machst einen ausgefallenen Sprung auf die Bestie zu.",
                     "Dein Fuß erwischt aber nur gerümpel.",
                     "Statt dich von dem Felsen weg zu stoßen, stößt du Steine los.",
                     "In einer Kettenreaktion lösen sich immer mehr Steine, die auf das Ungetüm hinabsausen.",
@@ -547,7 +547,7 @@
             {
                 "actionText": "Bestie anhimmeln",
                 "resultText": [
-                    "<b>Du beginnst deine besten Anmachsprüche auszupacken.</b>",
+                    "Du beginnst deine besten Anmachsprüche auszupacken.",
                     "An der gequälten Reaktion der Anwesenden, lässt sich deine Minne beurteilen.",
                     "Ohne Rücksicht auf verlusst legst du wieter zu.",
                     "Mit jedem weiteren Satz zieht sich das Ungetüm weiter zitternd zusammen.",

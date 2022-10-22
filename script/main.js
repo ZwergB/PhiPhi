@@ -6,6 +6,7 @@ let currentchapter;
 
 let currentId;
 let nextId;
+let firstText = true;
 
 function init() {
     console.log('init');
@@ -22,7 +23,6 @@ function openStory(s) {
     nextId = currentId;
 
     openStoryScreen(currentchapter);
-
 }
 
 function getChapterById(id, chapters) {
@@ -33,15 +33,9 @@ function getChapterById(id, chapters) {
     return false;
 }
 
-function storyTransition(){
-
-}
-
 function openStoryScreen(screen) {
     clearActionElements();
     setBackground(screen.backgroundImage);
-
-
     
     for (const element of screen.interaction) {
         createActionElement(element)        
@@ -52,7 +46,6 @@ function openStoryScreen(screen) {
 
 function clearActionElements() {
     document.getElementById('actionElements').innerHTML = '';
-
 }
 
 function nextText() {
@@ -66,12 +59,16 @@ function nextText() {
     
             openStoryScreen(currentchapter);
         }
-
         return;
     }
 
     const t = document.createElement('div');
-    t.innerHTML = texts[0] + '<br>';
+    if (firstText) {
+        t.classList.add('bold');
+    }
+    firstText = false;
+    // t.innerHTML = texts[0] + '<br>';
+    printLetterByLetter(t, texts[0], 25)
     document.getElementById('texts').appendChild(t);
     texts.shift();
     t.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
@@ -122,11 +119,9 @@ function createActionElement(element) {
         t.innerHTML = text;
         storyText.appendChild(t);
     }    
-
-    
+  
     div.append(tooltipBox);
-    div.append(storyText);
-    console.log(img)    
+    div.append(storyText);   
 
     function clickActionElement() {
         if(this.getAttribute('active') == "true") {
@@ -155,12 +150,10 @@ function startText(t, next) {
         nextId = next;
 
     texts = t;
-    
     document.getElementById('texts').innerHTML = '';
     document.getElementById('main').addEventListener('click', nextText);
 
-    const elements = document.getElementsByClassName('actionElement');
-
+    firstText = true;
 }
 
 async function readJson (url) {
@@ -172,3 +165,15 @@ async function readJson (url) {
     }
     return await response.json();
  }
+
+
+ function printLetterByLetter(destination, message, speed){
+    var i = 0;
+    var interval = setInterval(function(){
+        destination.innerHTML += message.charAt(i);
+        i++;
+        if (i > message.length){
+            clearInterval(interval);
+        }
+    }, speed);
+}

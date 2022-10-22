@@ -49,14 +49,6 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     scale: 0.7;
 }
 
-.actionElement img {
-    
-}
-
-#actionElements {
-
-}
-
 .actionElement[active~="false"] {
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     
@@ -73,13 +65,14 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 
 .tooltip .tooltiptext {
-    visibility: hidden;
+    opacity: 0;
     width: 120px;
     background-color: black;
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
+    font-size: 1.2em;
     
     /* Position the tooltip */
     position: absolute;
@@ -87,8 +80,14 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     bottom: 100%;
     left: 50%;
     margin-left: -60px;
+
+    transition: .2s opacity linear;
   }
   
   .actionElement[active~="true"].tooltip:hover .tooltiptext {
-    visibility: visible;
+    opacity: 1;
+  }
+
+  .bold {
+    font-weight: bold;
   }
