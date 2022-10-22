@@ -61,7 +61,7 @@
     }, 
     {
         "id": 2,
-        "backgroundImage": "/assets/skizzen/backgrounds/scene02.png",
+        "backgroundImage": "./assets/skizzen/backgrounds/scene02.png",
         "texts": [ 
             "Bei Dämmerung ist nun alles so weit.",
             "Andächtig stehen alle um den Ritualkreis herum.",
