@@ -4,7 +4,7 @@
     "story": [
     {
         "id": 1,
-        "backgroundImage": "/assets/skizzen/backgrounds/scene01.png",
+        "backgroundImage": "./assets/skizzen/backgrounds/scene01.png",
         "texts": [ 
             "Wilkommen.",
             "Endlich ist es so weit.",
@@ -19,7 +19,7 @@
                     "Als du wieder zurück willst, stolperst du über deine Füße und verteilst die Kerzen auf dem Boden",
                     "Pass besser auf, dass das nicht gleich beim Ritual passiert!"
                 ],
-                "image": "/assets/skizzen/objekte/scene01kerzen.png",
+                "image": "./assets/skizzen/objekte/scene01kerzen.png",
                 "position": {
                     "x": 830,
                     "y": 430
@@ -34,7 +34,7 @@
                     "Mehrmals stolpern andere Kultisten fast über dich, wärend sie das Ritual vorbereiten.",
                     "Pass zumindest auf, dass du gleich beim Ritual nicht im Weg bist."
                 ],
-                "image": "/assets/skizzen/objekte/scene01fleck.png",
+                "image": "./assets/skizzen/objekte/scene01fleck.png",
                 "position": {
                     "x": 700,
                     "y": 400
@@ -48,7 +48,7 @@
                     "Als du aufstehst, um an der nächsten Stelle zu mahlen, trittst du auf deinen Umhang und verschüttest das Pulver",
                     "Ihr habt zwar noch genug Pulver, um den Ritualkreis zu beenden, aber es hat schon seinen Grund, dass du beim eigentlichen Ritual keine Aufgabe bekommen hast."
                 ],
-                "image": "/assets/skizzen/objekte/scene01anhaenger.png",
+                "image": "./assets/skizzen/objekte/scene01anhaenger.png",
                 "position": {
                     "x": 450,
                     "y": 100
