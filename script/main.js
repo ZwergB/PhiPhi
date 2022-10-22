@@ -54,6 +54,15 @@ function openStoryScreen(screen) {
         for (const element of elements) {
             element.setAttribute("active", true);
         }
+
+        console.log(elements)
+
+        const invis = document.querySelectorAll('.invis');
+        for (let i = 0; i < invis.length; i++) {
+            const e = invis[i];
+            e.classList.remove('invis');
+            
+        }
     }
 }
 
@@ -70,12 +79,28 @@ function createActionElement(element) {
     div.setAttribute("active", false);
     div.style.left = element.position.x + 'px';
     div.style.top = element.position.y + 'px';
+    div.addEventListener('click', clickActionElement);
     parent.appendChild(div);
 
     const img = document.createElement('img');
     img.src = element.image;
     div.appendChild(img);
-    console.log(img)
+
+    const displayText = document.createElement('span');
+    displayText.classList.add('invis', 'hoverText');
+    displayText.innerHTML = element.actionText;
+    div.append(displayText);
+
+    console.log(img)    
+
+    function clickActionElement() {
+        const element = this.getElementsByClassName('hoverText')[0];
+
+        if (!element.classList.contains('invis')) {
+            const text = element.innerHTML;
+            console.log(text);
+        }
+    }
 }
 
 async function readJson (url) {
