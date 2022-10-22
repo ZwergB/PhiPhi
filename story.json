@@ -92,7 +92,7 @@
                     "Das Zündholz erlischt und auch das ausgehen der Kerzen lässt sich somit nicht mehr aufhalten.",
                     "Bei genauerem hinsehen merkst du aber, dass die Kerzen systematisch aus gehen."
                 ],
-                "image": "/assets/skizzen/objekte/scene02Kerze.png",
+                "image": "/assets/skizzen/objekte/scene02kerze.png",
                 "position": {
                     "x": 700,
                     "y": 400
@@ -105,14 +105,71 @@
                     "<b>Du drückst euren Anführer weg<\b>",
                     "Wärend du ließt verschwimmen die Buchstaben vor deinem Auge.",
                     "Um nicht wie ein Idiot da zu stehen, denkst du dir den Text aus und redest einfach immer weiter.",
-                    ""
+                    "Ein Großes Schwarzes Loch frisst alles auf."
                 ],
-                "image": "/assets/skizzen/objekte/scene01anhaenger.png",
+                "image": "/assets/skizzen/objekte/scene02leiter.png",
                 "position": {
                     "x": 450,
                     "y": 100
                 },
                 "next": -1
+            }
+        ]
+
+        
+    },
+    {
+        "id": 3,
+        "backgroundImage": "/assets/skizzen/backgrounds/scene03.png",
+        "texts": [ 
+            "Als die letzte Kerze erlischt, flammt das Pentagram auf und eine Gestalt erscheint.",
+            "Ein Andächtiges schweigen hat sich unter euch gebildet."
+        ],
+        "interaction": [
+            {
+                "actionText": "Hilf der Dämonin auf",
+                "resultText": [
+                    "<b>Um deine Treue unter beweis zu stellen eilst du direkt zu ihr <\b>",
+                    "Du reichst ihr deinen Arm und ziehst sie hoch.",
+                    "Ein lautes ratschen lässt dich erkennen, dass du dabei auf ihrem Umhang gestanden hasst.",
+                    "Panik steigt in dir auf."
+                ],
+                "image": "/assets/skizzen/objekte/scene03daemon.png",
+                "position": {
+                    "x": 830,
+                    "y": 430
+                },
+                "next": 4
+            },
+            {
+                "actionText": "Bring ihr ein Getränk",
+                "resultText": [
+                    "<b>Du hohlst ihr was zu trinken. <\b>",
+                    "Als du ihr den Kelch an ihre Lippen hällst schüttest du außversehen den Wein auf ihren Umhang",
+                    "Panik steigt in dir auf."
+                ],
+                "image": "/assets/skizzen/objekte/scene03trinken.png",
+                "position": {
+                    "x": 700,
+                    "y": 400
+                },
+                "next": 4
+            },
+            {
+                "actionText": "Laufe vor zum Festessen",
+                "resultText": [
+                    "<b>Du rennst los, um als erster beim Festmahl zu sein.<\b>",
+                    "Dabei rutscht du auß und hinterlässt eine Schneise der Verwüstung.",
+                    "Immerhin ist jetzt eine Schneise da, durch die die Dämonin schreiten kann",
+                    "Anmutig erhebt sie sich und streift dabei ihren Umhang ab.",
+                    "Gebannt von ihr folgt ihr zum Mahl."
+                ],
+                "image": "/assets/skizzen/objekte/scene03laufen.png",
+                "position": {
+                    "x": 450,
+                    "y": 100
+                },
+                "next": 5
             }
         ]
 
