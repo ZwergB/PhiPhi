@@ -129,7 +129,7 @@
             {
                 "actionText": "Hilf der Dämonin auf",
                 "resultText": [
-                    "<b>Um deine Treue unter beweis zu stellen eilst du direkt zu ihr </b>",
+                    "<b>Um deine Treue unter beweis zu stellen, eilst du direkt zu ihr. </b>",
                     "Du reichst ihr deinen Arm und ziehst sie hoch.",
                     "Ein lautes ratschen lässt dich erkennen, dass du dabei auf ihrem Umhang gestanden hasst.",
                     "Panik steigt in dir auf."
@@ -203,7 +203,7 @@
                     "<b>Du prbierst schnell ihr stattdessen deinen Mantel zu reichen. </b>",
                     "Du löst die Schnalle, um ihn von deinen Schultern zu lösen.",
                     "Doch gerade jene schnalle bleibt nun an deinen restlichen Gewändern hängen und dein Mantel fällt auf den Boden.",
-                    "Die Dömonin ignoriert dich und schreitet einfach über deinen Mantel rüber.",
+                    "Die Dämonin ignoriert dich und schreitet einfach über deinen Mantel rüber.",
                     "Die restlichen Kultisten folgen ihren anmutigen Schritten."
                 ],
                 "image": "/assets/skizzen/objekte/scene04umhang.png",
@@ -262,7 +262,8 @@
                     "Mit einem tötendem Blick schaut sie dich an.",
                     "Ihre Hand schnellt nach vorne und sie ruft Worte, die du nicht verstehen kannst.",
                     "Du wartest darauf, dass dich der Schlag trifft, doch nichts passiert.",
-                    "Eine algemeine Unruhe entsteht"
+                    "Eine algemeine Unruhe entsteht",
+                    "Die ersten beginnen nach draußen zu rennen"
                 ],
                 "image": "/assets/skizzen/objekte/scene05flirten.png",
                 "position": {
@@ -281,7 +282,7 @@
         "texts": [ 
             "Draußen schlägt dir die kühle Nachtluft entgegen.",
             "Das hätte drnnen ganzschön peinlich werden können.",
-            "Plötzlich hörst du Unruhe von drinnen."
+            "Plötzlich hörst du Unruhe von drinnen.",
             "Was dort wohl vor sich geht?"
         ],
         "interaction": [
@@ -322,40 +323,40 @@
         "id": 8,
         "backgroundImage": "/assets/skizzen/backgrounds/scene08.png",
         "texts": [ 
-            "Draußen schlägt dir die kühle Nachtluft entgegen.",
-            "Das hätte drnnen ganzschön peinlich werden können.",
-            "Plötzlich hörst du Unruhe von drinnen."
-            "Was dort wohl vor sich geht?"
+            "Wieso hatte die Dämonin keine Macht?",
+            "War beim Ritual etwas schief gelaufen?",
+            "Eine tiefe Schuld erfasst dich.",
+            "Du musst dringend etwas tuen."
         ],
         "interaction": [
             {
-                "actionText": "Schaue drinnen nach",
+                "actionText": "Mach einen Witz zur auflockerung",
                 "resultText": [
-                    "<b>Du gehst willst wieder rein um nachzusehen, was dort vor sich geht. </b>",
-                    "Als du zur Tür gehst kommen dir panisch die restlichen Kultisten entgegen.",
-                    "Du siehst, wie dei Dämonin versucht irgendwas in die Luft zu Hexen, doch nichts passiert.",
-                    "Anscheinend fehlen ihr jegliche Dämonischen Kräfte.",
-                    "Das erklärt auch, warum die anderen Kultisten so panisch waren."
+                    "<b>'Wir können das Ritual doch einfach nochmal rückwärts durchführen', scherzt du.</b>",
+                    "Doch keiner scheint die Ironie in deiner Stimme zu hören.",
+                    "Nach und nach schauen dich die anderen fasziniert an und beginnen zu nicken.",
+                    "Sie scheinen vollkommen überzeugt, das Ritual nochmals rückwärts durchzuführen.",
+                    "Da die meisten Sachen noch vorbereitet sind gibt es nicht mehr viel zu tun."
                 ],
-                "image": "/assets/skizzen/objekte/scene07rein.png",
+                "image": "/assets/skizzen/objekte/scene08witz.png",
                 "position": {
                     "x": 830,
                     "y": 430
                 },
-                "next": 8
+                "next": 10
             },
             {
-                "actionText": "Gehe weg",
+                "actionText": "Schaue dich um",
                 "resultText": [
-                    "<b>Was auch immer dort vor sich geht, du willst damit nichts zu tun haben und gehst weg von den Feierlichkeiten. </b>",
-                    "Bestimmt geben wieder alle dir die Schuld und dabei hast du doch garnichts gemacht."
+                    "<b>Du willst auf den Felsen klettern, um dich umzuschauen. </b>",
+                    "Doch direkt nach dem ersten Meter entdechst du große Kratzspuren die an dem Felsen sind."
                 ],
-                "image": "/assets/skizzen/objekte/scene07weg.png",
+                "image": "/assets/skizzen/objekte/scene08fels.png",
                 "position": {
                     "x": 700,
                     "y": 400
                 },
-                "next": 9
+                "next": 11
             }
         ]
 
