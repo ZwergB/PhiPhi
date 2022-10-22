@@ -9,7 +9,7 @@ let nextId;
 
 function init() {
     console.log('init');
-    readJson('story.json').then(res => {
+    readJson('./story.json').then(res => {
         openStory(res)
     });
 
