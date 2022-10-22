@@ -86,7 +86,7 @@ function nextText() {
 
 
 function setBackground(path) {
-    document.getElementById('background').querySelector('img').src = '.' + path;
+    document.getElementById('background').querySelector('img').src = path;
 }
 
 function createActionElement(element) {
@@ -102,7 +102,7 @@ function createActionElement(element) {
     parent.appendChild(div);
 
     const img = document.createElement('img');
-    img.src = '.' + element.image;
+    img.src = element.image;
     div.appendChild(img);
 
     const tooltipBox = document.createElement('div');
