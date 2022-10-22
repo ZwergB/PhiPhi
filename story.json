@@ -15,7 +15,7 @@
             {
                 "actionText": "Hilf mit, die Kerzen zu plzieren",
                 "resultText": [
-                    "<b>Du holst die Kerzen <\b>",
+                    "<b>Du holst die Kerzen </b>",
                     "Als du wieder zurück willst, stolperst du über deine Füße und verteilst die Kerzen auf dem Boden",
                     "Pass besser auf, dass das nicht gleich beim Ritual passiert!"
                 ],
@@ -29,7 +29,7 @@
             {
                 "actionText": "Setze dich, damit du nicht im Weg bist",
                 "resultText": [
-                    "<b>Du setzt dich auf den Boden. <\b>",
+                    "<b>Du setzt dich auf den Boden. </b>",
                     "Leider ist diese Stelle alles, nur nicht aus dem Weg.",
                     "Mehrmals stolpern andere Kultisten fast über dich, wärend sie das Ritual vorbereiten.",
                     "Pass zumindest auf, dass du gleich beim Ritual nicht im Weg bist."
@@ -44,7 +44,7 @@
             {
                 "actionText": "Hilf mit, das Pentagramm zu malen",
                 "resultText": [
-                    "<b>Du nimmst dir rote Farbe <\b>",
+                    "<b>Du nimmst dir rote Farbe </b>",
                     "Als du aufstehst, um an der nächsten Stelle zu mahlen, trittst du auf deinen Umhang und verschüttest das Pulver",
                     "Ihr habt zwar noch genug Pulver, um den Ritualkreis zu beenden, aber es hat schon seinen Grund, dass du beim eigentlichen Ritual keine Aufgabe bekommen hast."
                 ],
@@ -71,7 +71,7 @@
             {
                 "actionText": "Locke die Katze an",
                 "resultText": [
-                    "<b>Du machst fieb Geräusche mit deinem Mund <\b>",
+                    "<b>Du machst fieb Geräusche mit deinem Mund </b>",
                     "Plätzlich verschluckst du dich dabei.",
                     "Du musst husten und die Katze rennt weg.",
                     "Immerhin kann sie jetzt nicht mehr das Ritual stören."
@@ -86,7 +86,7 @@
             {
                 "actionText": "Zünde die Kerzen wieder an",
                 "resultText": [
-                    "<b>Du entfachst ein Schwefelholz, um damit die Kerze wieder zu entzünden. <\b>",
+                    "<b>Du entfachst ein Schwefelholz, um damit die Kerze wieder zu entzünden. </b>",
                     "Doch das Hölzchen brennt besser als erwartet.",
                     "Du verbrennst dir die Finger und lässt es fallen.",
                     "Das Zündholz erlischt und auch das ausgehen der Kerzen lässt sich somit nicht mehr aufhalten.",
@@ -102,7 +102,7 @@
             {
                 "actionText": "Sage selbst die Beschwörung",
                 "resultText": [
-                    "<b>Du drückst euren Anführer weg<\b>",
+                    "<b>Du drückst euren Anführer weg</b>",
                     "Wärend du ließt verschwimmen die Buchstaben vor deinem Auge.",
                     "Um nicht wie ein Idiot da zu stehen, denkst du dir den Text aus und redest einfach immer weiter.",
                     "Ein Großes Schwarzes Loch frisst alles auf."
@@ -129,7 +129,7 @@
             {
                 "actionText": "Hilf der Dämonin auf",
                 "resultText": [
-                    "<b>Um deine Treue unter beweis zu stellen eilst du direkt zu ihr <\b>",
+                    "<b>Um deine Treue unter beweis zu stellen eilst du direkt zu ihr </b>",
                     "Du reichst ihr deinen Arm und ziehst sie hoch.",
                     "Ein lautes ratschen lässt dich erkennen, dass du dabei auf ihrem Umhang gestanden hasst.",
                     "Panik steigt in dir auf."
@@ -144,7 +144,7 @@
             {
                 "actionText": "Bring ihr ein Getränk",
                 "resultText": [
-                    "<b>Du hohlst ihr was zu trinken. <\b>",
+                    "<b>Du hohlst ihr was zu trinken. </b>",
                     "Als du ihr den Kelch an ihre Lippen hällst schüttest du außversehen den Wein auf ihren Umhang",
                     "Panik steigt in dir auf."
                 ],
@@ -158,7 +158,63 @@
             {
                 "actionText": "Laufe vor zum Festessen",
                 "resultText": [
-                    "<b>Du rennst los, um als erster beim Festmahl zu sein.<\b>",
+                    "<b>Du rennst los, um als erster beim Festmahl zu sein.</b>",
+                    "Dabei rutscht du auß und hinterlässt eine Schneise der Verwüstung.",
+                    "Immerhin ist jetzt eine Schneise da, durch die die Dämonin schreiten kann",
+                    "Anmutig erhebt sie sich und streift dabei ihren Umhang ab.",
+                    "Gebannt von ihr folgt ihr zum Mahl."
+                ],
+                "image": "/assets/skizzen/objekte/scene03laufen.png",
+                "position": {
+                    "x": 450,
+                    "y": 100
+                },
+                "next": 5
+            }
+        ]
+
+        
+    },
+    {
+        "id": 3,
+        "backgroundImage": "/assets/skizzen/backgrounds/scene03.png",
+        "texts": [ 
+            "Du willst nicht den Zorn des ganzen Kultes auf dich ziehen."
+        ],
+        "interaction": [
+            {
+                "actionText": "Verfalle in Panik",
+                "resultText": [
+                    "<b>Du fuchtelst mit den Armen und versuchst eine algemeine Panik auszulösen </b>",
+                    "Du reichst ihr deinen Arm und ziehst sie hoch.",
+                    "Ein lautes ratschen lässt dich erkennen, dass du dabei auf ihrem Umhang gestanden hasst.",
+                    "Panik steigt in dir auf."
+                ],
+                "image": "/assets/skizzen/objekte/scene03daemon.png",
+                "position": {
+                    "x": 830,
+                    "y": 430
+                },
+                "next": 4
+            },
+            {
+                "actionText": "Bring ihr ein Getränk",
+                "resultText": [
+                    "<b>Du hohlst ihr was zu trinken. </b>",
+                    "Als du ihr den Kelch an ihre Lippen hällst schüttest du außversehen den Wein auf ihren Umhang",
+                    "Panik steigt in dir auf."
+                ],
+                "image": "/assets/skizzen/objekte/scene03trinken.png",
+                "position": {
+                    "x": 700,
+                    "y": 400
+                },
+                "next": 4
+            },
+            {
+                "actionText": "Laufe vor zum Festessen",
+                "resultText": [
+                    "<b>Du rennst los, um als erster beim Festmahl zu sein.</b>",
                     "Dabei rutscht du auß und hinterlässt eine Schneise der Verwüstung.",
                     "Immerhin ist jetzt eine Schneise da, durch die die Dämonin schreiten kann",
                     "Anmutig erhebt sie sich und streift dabei ihren Umhang ab.",
