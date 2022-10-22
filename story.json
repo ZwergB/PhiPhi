@@ -368,30 +368,32 @@
         "texts": [ 
             "Als du dich abwendest, siehst du du ein weinendes Mädchen am Wegesrand.",
             "Sie sucht verzweifelt nach ihrer Katze.",
-            ".",
+            "Als sie dich mit ihren Augen ansieht, kannst du nicht anders, als ihr zu helfen.",
             "Du musst dringend etwas tuen."
         ],
         "interaction": [
             {
-                "actionText": "Mach einen Witz zur auflockerung",
+                "actionText": "Katze locken",
                 "resultText": [
-                    "<b>'Wir können das Ritual doch einfach nochmal rückwärts durchführen', scherzt du.</b>",
-                    "Doch keiner scheint die Ironie in deiner Stimme zu hören.",
-                    "Nach und nach schauen dich die anderen fasziniert an und beginnen zu nicken.",
-                    "Sie scheinen vollkommen überzeugt, das Ritual nochmals rückwärts durchzuführen.",
-                    "Da die meisten Sachen noch vorbereitet sind gibt es nicht mehr viel zu tun."
+                    "<b>Du legst was zu Essen auf den Boden.</b>",
+                    "Nach kurzem Warten kommt auch ein Tier, um die Nahrung zu fressen.",
+                    "Jedoch ist es keine Katze, sondern eine Maus.",
+                    "Dir bleibt wohl nichts anderes Übrig, als dich auf die Suche zu machen.",
+                    "<b>Du begibst dich auf die Suche nach Spuren. </b>",
+                    "Doch direkt nach dem ersten Meter entdechst du große Kratzspuren die an dem Felsen sind."
+                    
                 ],
                 "image": "./assets/skizzen/objekte/scene08witz.png",
                 "position": {
                     "x": 830,
                     "y": 430
                 },
-                "next": 10
+                "next": 11
             },
             {
-                "actionText": "Schaue dich um",
+                "actionText": "Suche nach Spuren der Katze",
                 "resultText": [
-                    "<b>Du willst auf den Felsen klettern, um dich umzuschauen. </b>",
+                    "<b>Du begibst dich auf die Suche nach Spuren. </b>",
                     "Doch direkt nach dem ersten Meter entdechst du große Kratzspuren die an dem Felsen sind."
                 ],
                 "image": "./assets/skizzen/objekte/scene08fels.png",
@@ -400,6 +402,166 @@
                     "y": 400
                 },
                 "next": 11
+            }
+        ]
+
+        
+    },
+    {
+        "id": 10,
+        "backgroundImage": "./assets/skizzen/backgrounds/scene02.png",
+        "texts": [ 
+            "Da du dich für das Schlamassel verantwortlich fühlst, willst du helfen",
+            "Es fehlt noch die Dämonin in der Mitte und eine Laterne, um bei der nun vorran geschrittenen Nacht die Verse noch lesen zu können."
+        ],
+        "interaction": [
+            {
+                "actionText": "Laterne holen",
+                "resultText": [
+                    "<b>Du holst die Laterne und stellst sie auf dem Pult neben dem Buch ab.</b>",
+                    "Leider war der Stand der Laterne aber nicht so sicher, wie du gedacht hattest.",
+                    "Mit einem lauten klirren fällt die Laterne zu Boden und entzündet die Kerzen",
+                    "Du füllt ein Rauschen deinen Kopf und du siehst einen roten Wirbel im Ritualkreis.",
+                    "Du hörst ein markerschütterndes Brüllen.",
+                    "Ohne nachzudenken, drehst du dich um und hechtest auf den nächsten Felsen."
+                    
+                ],
+                "image": "./assets/skizzen/objekte/scene10laterne.png",
+                "position": {
+                    "x": 830,
+                    "y": 430
+                },
+                "next": 12
+            },
+            {
+                "actionText": "Dämonin holen",
+                "resultText": [
+                    "<b>Du rufst den namen der Dämonin, auch wenn dir nicht bewusst ist, woher du ihn weißt. </b>",
+                    "So schnell wie er dir im Gedächnis erschienen war, so schnell verschwindet der Name aus deinen Gedanken aber auch wieder.",
+                    "Stattdessen füllt jetzt ein Rauschen deinen Kopf und du siehst einen roten Wirbel im Ritualkreis.",
+                    "Du hörst ein markerschütterndes Brüllen.",
+                    "Ohne nachzudenken drehst du dich um und hechtest auf den nächsten Felsen."
+                ],
+                "image": "./assets/skizzen/objekte/scene10holen.png",
+                "position": {
+                    "x": 700,
+                    "y": 400
+                },
+                "next": 12
+            }
+        ]
+
+        
+    },
+     {
+        "id": 11,
+        "backgroundImage": "./assets/skizzen/backgrounds/scene08.png",
+        "texts": [ 
+            "Du folgst den Spuren und hörst hinter einem Felsen ein Knurren",
+            "Ein kalter Schauer läuft dir über den Rücken."
+        ],
+        "interaction": [
+            {
+                "actionText": "An Monster anschleichen",
+                "resultText": [
+                    "<b>Du versuchst dich anzuschleichen und ein trittst auf einen Ast.</b>",
+                    "Ein lautes Knacken ertönt.",
+                    "Schneller als du schreien kannst stürzen sich dämonische Klauen auf dich.",
+                    "Und mit einem Hieb trennt sich dein Kopf von deinem Körper."
+                    
+                ],
+                "image": "./assets/skizzen/objekte/scene11anschleichen.png",
+                "position": {
+                    "x": 830,
+                    "y": 430
+                },
+                "next": -2
+            },
+            {
+                "actionText": "heimlich weg gehen",
+                "resultText": [
+                    "<b>Du versuchst dich weg zu schleichen und trittst auf einen Ast. </b>",
+                    "Du hörst ein markerschütterndes Brüllen hinter dir.",
+                    "Ohne dich umzudrehen hechtest du auf den nächsten Felsen."
+                ],
+                "image": "./assets/skizzen/objekte/scene10holen.png",
+                "position": {
+                    "x": 700,
+                    "y": 400
+                },
+                "next": 12
+            }
+        ]
+
+        
+    },
+    {
+        "id": 12,
+        "backgroundImage": "./assets/skizzen/backgrounds/scene03.png",
+        "texts": [ 
+            "In Mitten des Ritualkreises erblickst du eine Raubtier mit rot glühenden Augen.",
+            "Zerzaustes Fell steht in alle Richtungen ab.",
+            "Speichel tropft von seinen geflätschten Fängen.",
+            "Du spürst, dass ein falscher Schritt dein Ende bedeuten könnte."
+        ],
+        "interaction": [
+            {
+                "actionText": "Fliehen",
+                "resultText": [
+                    "<b>Du machst einen ausgefallenen Sprung weg von der Bestie.</b>",
+                    "Dein Fuß erwischt aber nur gerümpel.",
+                    "Statt dich von dem Felsen weg zu stoßen, stößt du Steine los.",
+                    "In einer Kettenreaktion lösen sich immer mehr Steine, die auf das Ungetüm hinabsausen.",
+                    "Innerhalb eines Wimpernschlags ist nichts mehr von dem Wesen zu sehen.",
+                    "Ein unnatürlichen Fauchen ertönt und der Steinhaufen beginnt rot zu leuchten.",
+                    "Sie siehst wie die Energie durch die Ritzen in die Dämonin strömt.",
+                    "Nachdem das Leuchten verklommen war, hörst du ein leises Mautzen und eine Katze zwängt sich unter den Steinen hervor."
+                    
+                ],
+                "image": "./assets/skizzen/objekte/scene12weg.png",
+                "position": {
+                    "x": 830,
+                    "y": 430
+                },
+                "next": 13
+            },
+            {
+                "actionText": "Auf Bestie springen",
+                "resultText": [
+                    "<b>Du machst einen ausgefallenen Sprung auf die Bestie zu.</b>",
+                    "Dein Fuß erwischt aber nur gerümpel.",
+                    "Statt dich von dem Felsen weg zu stoßen, stößt du Steine los.",
+                    "In einer Kettenreaktion lösen sich immer mehr Steine, die auf das Ungetüm hinabsausen.",
+                    "Innerhalb eines Wimpernschlags ist nichts mehr von dem Wesen zu sehen.",
+                    "Ein unnatürlichen Fauchen ertönt und der Steinhaufen beginnt rot zu leuchten.",
+                    "Sie siehst wie die Energie durch die Ritzen in die Dämonin strömt.",
+                    "Nachdem das Leuchten verklommen war, hörst du ein leises Mautzen und eine Katze zwängt sich unter den Steinen hervor."
+                ],
+                "image": "./assets/skizzen/objekte/scene10holen.png",
+                "position": {
+                    "x": 700,
+                    "y": 400
+                },
+                "next": 13
+            },
+            {
+                "actionText": "Bestie anhimmeln",
+                "resultText": [
+                    "<b>Du beginnst deine besten Anmachsprüche auszupacken.</b>",
+                    "An der gequälten Reaktion der Anwesenden, lässt sich deine Minne beurteilen.",
+                    "Ohne Rücksicht auf verlusst legst du wieter zu.",
+                    "Mit jedem weiteren Satz zieht sich das Ungetüm weiter zitternd zusammen.",
+                    "Ein herzzereißendes gejammer und fauchen ist zu hören.",
+                    "Du siehst wie eine rote Energie aus dem Wesen in die Dämonin flieht.",
+                    "Sie siehst wie die Energie durch die Ritzen in die Dämonin strömt.",
+                    "Zurück bleibt eine Ängsliche Katze die leise mautzt."
+                ],
+                "image": "./assets/skizzen/objekte/scene12anhimmeln.png",
+                "position": {
+                    "x": 700,
+                    "y": 400
+                },
+                "next": 13
             }
         ]
 
