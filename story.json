@@ -363,6 +363,49 @@
         
     },
     {
+        "id": 9,
+        "backgroundImage": "/assets/skizzen/backgrounds/scene07.png",
+        "texts": [ 
+            "Als du dich abwendest, siehst du du ein weinendes Mädchen am Wegesrand.",
+            "Sie sucht verzweifelt nach ihrer Katze.",
+            ".",
+            "Du musst dringend etwas tuen."
+        ],
+        "interaction": [
+            {
+                "actionText": "Mach einen Witz zur auflockerung",
+                "resultText": [
+                    "<b>'Wir können das Ritual doch einfach nochmal rückwärts durchführen', scherzt du.</b>",
+                    "Doch keiner scheint die Ironie in deiner Stimme zu hören.",
+                    "Nach und nach schauen dich die anderen fasziniert an und beginnen zu nicken.",
+                    "Sie scheinen vollkommen überzeugt, das Ritual nochmals rückwärts durchzuführen.",
+                    "Da die meisten Sachen noch vorbereitet sind gibt es nicht mehr viel zu tun."
+                ],
+                "image": "/assets/skizzen/objekte/scene08witz.png",
+                "position": {
+                    "x": 830,
+                    "y": 430
+                },
+                "next": 10
+            },
+            {
+                "actionText": "Schaue dich um",
+                "resultText": [
+                    "<b>Du willst auf den Felsen klettern, um dich umzuschauen. </b>",
+                    "Doch direkt nach dem ersten Meter entdechst du große Kratzspuren die an dem Felsen sind."
+                ],
+                "image": "/assets/skizzen/objekte/scene08fels.png",
+                "position": {
+                    "x": 700,
+                    "y": 400
+                },
+                "next": 11
+            }
+        ]
+
+        
+    },
+    {
 
     }
     ]
