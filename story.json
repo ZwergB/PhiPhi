@@ -202,28 +202,56 @@
                 "resultText": [
                     "<b>Du prbierst schnell ihr stattdessen deinen Mantel zu reichen. </b>",
                     "Du löst die Schnalle, um ihn von deinen Schultern zu lösen.",
-                    "Doch gerade jene schnalle bleibt nun an deinen restlichen Gewändern hängen und dein Mantel fällt auf den Boden."
+                    "Doch gerade jene schnalle bleibt nun an deinen restlichen Gewändern hängen und dein Mantel fällt auf den Boden.",
+                    "Die Dömonin ignoriert dich und schreitet einfach über deinen Mantel rüber.",
+                    "Die restlichen Kultisten folgen ihren anmutigen Schritten."
                 ],
-                "image": "/assets/skizzen/objekte/scene03trinken.png",
+                "image": "/assets/skizzen/objekte/scene04mantel.png",
                 "position": {
                     "x": 700,
                     "y": 400
                 },
-                "next": 4
+                "next": 5
+            }
+        ]
+
+        
+    },
+    {
+        "id": 5,
+        "backgroundImage": "/assets/skizzen/backgrounds/scene05.png",
+        "texts": [ 
+            "Du willst nicht den Zorn des ganzen Kultes auf dich ziehen."
+        ],
+        "interaction": [
+            {
+                "actionText": "Verfalle in Panik",
+                "resultText": [
+                    "<b>Du fuchtelst mit den Armen und versuchst eine algemeine Panik auszulösen </b>",
+                    "Die Dämonin lacht und der ganze Kult fängt an dich auszulachen.",
+                    "Sie lässt den unbrauchbaren Mantel liegen und schreitet anmutig zum Festmahl.",
+                    "Du läufst den anderen bedröppelt hinterher."
+                ],
+                "image": "/assets/skizzen/objekte/scene04panik.png",
+                "position": {
+                    "x": 830,
+                    "y": 430
+                },
+                "next": 5
             },
             {
-                "actionText": "Laufe vor zum Festessen",
+                "actionText": "Biete deinen Mantel an",
                 "resultText": [
-                    "<b>Du rennst los, um als erster beim Festmahl zu sein.</b>",
-                    "Dabei rutscht du auß und hinterlässt eine Schneise der Verwüstung.",
-                    "Immerhin ist jetzt eine Schneise da, durch die die Dämonin schreiten kann",
-                    "Anmutig erhebt sie sich und streift dabei ihren Umhang ab.",
-                    "Gebannt von ihr folgt ihr zum Mahl."
+                    "<b>Du prbierst schnell ihr stattdessen deinen Mantel zu reichen. </b>",
+                    "Du löst die Schnalle, um ihn von deinen Schultern zu lösen.",
+                    "Doch gerade jene schnalle bleibt nun an deinen restlichen Gewändern hängen und dein Mantel fällt auf den Boden.",
+                    "Die Dömonin ignoriert dich und schreitet einfach über deinen Mantel rüber.",
+                    "Die restlichen Kultisten folgen ihren anmutigen Schritten."
                 ],
-                "image": "/assets/skizzen/objekte/scene03laufen.png",
+                "image": "/assets/skizzen/objekte/scene04mantel.png",
                 "position": {
-                    "x": 450,
-                    "y": 100
+                    "x": 700,
+                    "y": 400
                 },
                 "next": 5
             }
