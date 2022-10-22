@@ -1,21 +1,29 @@
 addEventListener('load', init);
 
+let texts = [];
+let wholeStory;
+let currentchapter;
+
+let currentId;
+let nextId;
+
 function init() {
     console.log('init');
-
-    readJson('/story.json').then(res => {
+    readJson('story.json').then(res => {
         openStory(res)
     });
+
 }
 
-function openStory(story) {
+function openStory(s) {
+    story = s;
     const chapters = story.story;
-    let currentchapter = getChapterById(story.firstChapter, chapters);
-    
-    let nextChapterId;
+    currentId = story.firstChapter;
+    currentchapter = getChapterById(currentId, chapters);
+    nextId = currentId;
 
-    nextChapterId = openStoryScreen(currentchapter);
-    currentchapter = getChapterById(nextChapterId, chapters);
+    openStoryScreen(currentchapter);
+
 }
 
 function getChapterById(id, chapters) {
@@ -26,42 +34,52 @@ function getChapterById(id, chapters) {
     return false;
 }
 
+function storyTransition(){
+
+}
+
 function openStoryScreen(screen) {
+    clearActionElements();
     setBackground(screen.backgroundImage);
 
+
+    
     for (const element of screen.interaction) {
         createActionElement(element)        
     }
 
-    document.getElementById('main').addEventListener('click', nextText);
+    startText(screen.texts);
+}
 
-    function nextText(texts) {
-        texts = screen.texts;
-        console.log(texts)
-        document.getElementById('texts').innerText += texts[0] + '\n';
-        texts.shift();
+function clearActionElements() {
+    document.getElementById('actionElements').innerHTML = '';
+
+}
+
+function nextText() {
+    if (!texts.length) {
+        document.getElementById('main').removeEventListener('click', nextText);
+        activateActionElements();
+
+        if (currentId != nextId) {
+            currentId = nextId;
+            currentchapter = getChapterById(nextId, story.story);
     
-        if (!texts.length) {
-            document.getElementById('main').removeEventListener('click', nextText);
-            activateActionElements();
-
+            openStoryScreen(currentchapter);
         }
+
+        return;
     }
+
+
+    document.getElementById('texts').innerHTML += texts[0] + '<br>';
+    texts.shift();
 
     function activateActionElements() {
         const elements = document.getElementsByClassName('actionElement');
         
         for (const element of elements) {
             element.setAttribute("active", true);
-        }
-
-        console.log(elements)
-
-        const invis = document.querySelectorAll('.invis');
-        for (let i = 0; i < invis.length; i++) {
-            const e = invis[i];
-            e.classList.remove('invis');
-            
         }
     }
 }
@@ -75,32 +93,74 @@ function createActionElement(element) {
     const parent = document.getElementById('actionElements');
 
     const div = document.createElement('div');
-    div.classList.add('actionElement');
-    div.setAttribute("active", false);
+    div.classList.add('actionElement', 'tooltip');
+    div.setAttribute('active', false);
     div.style.left = element.position.x + 'px';
     div.style.top = element.position.y + 'px';
     div.addEventListener('click', clickActionElement);
+    div.setAttribute('next', element.next)
     parent.appendChild(div);
 
     const img = document.createElement('img');
     img.src = element.image;
     div.appendChild(img);
 
+    const tooltipBox = document.createElement('div');
+    tooltipBox.classList.add('tooltip')
     const displayText = document.createElement('span');
-    displayText.classList.add('invis', 'hoverText');
+    displayText.classList.add('hoverText', 'tooltiptext');
     displayText.innerHTML = element.actionText;
     div.append(displayText);
 
+
+    const storyText = document.createElement('div');
+    storyText.classList.add('invis', 'storyText');
+
+    for (const text of element.resultText) {
+        console.log(text)
+        const t = document.createElement('span');
+        t.innerHTML = text;
+        storyText.appendChild(t);
+    }    
+
+    
+    div.append(tooltipBox);
+    div.append(storyText);
     console.log(img)    
 
     function clickActionElement() {
-        const element = this.getElementsByClassName('hoverText')[0];
+        if(this.getAttribute('active') == "true") {
+            const text = this.querySelectorAll('.storyText span');
 
-        if (!element.classList.contains('invis')) {
-            const text = element.innerHTML;
-            console.log(text);
+            const t = [];
+            for (let i = 0; i < text.length; i++) {
+                const ele = text[i];
+                t.push(ele.innerHTML);
+                
+            }
+
+            startText(t, this.getAttribute('next'));
+            const elements = document.getElementsByClassName('actionElement');
+            for (const element of elements) {
+                element.setAttribute("active", false);
+            }
+            
         }
+        
     }
+}
+
+function startText(t, next) {
+    if (next !== undefined)
+        nextId = next;
+
+    texts = t;
+    
+    document.getElementById('texts').innerHTML = '';
+    document.getElementById('main').addEventListener('click', nextText);
+
+    const elements = document.getElementsByClassName('actionElement');
+
 }
 
 async function readJson (url) {
