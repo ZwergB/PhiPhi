@@ -3,53 +3,119 @@
     "firstChapter": 0,
     "story": [
     {
-        "id": 0,
-        "backgroundImage": "/assets/skizzen/backgrounds/scene2.png",
+        "id": 1,
+        "backgroundImage": "/assets/skizzen/backgrounds/scene1.png",
         "texts": [ 
-            "Hier steht der TExt der ersten Zeile.",
-            "Hier steht der Text der zweiten Zeile."
+            "Wilkommen.",
+            "Endlich ist es so weit."
+            "Es müssen nurnoch die letzten Vorbereitungen getätigt werden und das große Ritual kann beginnen."
+            "Die Herschrinn wird wieder kommen und mit ihr wird es eine neue Weltordnung geben."
         ],
         "interaction": [
             {
-                "actionText": "Text einer Möglichkeit",
+                "actionText": "Hilf mit, die Kerzen zu plzieren",
                 "resultText": [
-                    "Text nach einer Option"
+                    "<b>Du holst die Kerzen <\b>"
+                    "Als du wieder zurück willst, stolperst du über deine Füße und verteilst die Kerzen auf dem Boden"
+                    "Pass besser auf, dass das nicht gleich beim Ritual passiert!"
                 ],
-                "image": "/assets/skizzen/objekte/scene2katze.png",
+                "image": "/assets/skizzen/objekte/scene1kerzen.png",
                 "position": {
                     "x": 830,
                     "y": 430
                 },
-                "next": 1
+                "next": 2
             },
             {
-                "actionText": "Text einer Möglichkeit",
+                "actionText": "Setze dich, damit du nicht im Weg bist",
                 "resultText": [
-                    "Text nach einer Option"
+                    "<b>Du setzt dich auf den Boden. <\b>"
+                    "Leider ist diese Stelle alles, nur nicht aus dem Weg."
+                    "Mehrmals stolpern andere Kultisten fast über dich, wärend sie das Ritual vorbereiten."
+                    "Pass zumindest auf, dass du gleich beim Ritual nicht im Weg bist."
                 ],
-                "image": "/assets/skizzen/objekte/scene2kerze.png",
+                "image": "/assets/skizzen/objekte/scene1fleck.png",
                 "position": {
                     "x": 700,
                     "y": 400
                 },
-                "next": 1
+                "next": 2
             },
             {
-                "actionText": "Text einer Möglichkeit",
+                "actionText": "Hilf mit, das Pentagramm zu malen",
                 "resultText": [
-                    "Text nach einer Option"
+                    "<b>Du nimmst dir rote Farbe <\b>"
+                    "Als du aufstehst, um an der nächsten Stelle zu mahlen, trittst du auf deinen Umhang und verschüttest das Pulver"
+                    "Ihr habt zwar noch genug Pulver, um den Ritualkreis zu beenden, aber es hat schon seinen Grund, dass du beim eigentlichen Ritual keine Aufgabe bekommen hast."
                 ],
-                "image": "/assets/skizzen/objekte/scene2leiter.png",
+                "image": "/assets/skizzen/objekte/scene1anhaenger.png",
                 "position": {
                     "x": 450,
                     "y": 100
                 },
-                "next": 1
+                "next": 2
             }
         ]
 
         
     }, 
+    {
+        "id": 1,
+        "backgroundImage": "/assets/skizzen/backgrounds/scene1.png",
+        "texts": [ 
+            "Wilkommen.",
+            "Endlich ist es so weit."
+            "Es müssen nurnoch die letzten Vorbereitungen getätigt werden und das große Ritual kann beginnen."
+            "Die Herschrinn wird wieder kommen und mit ihr wird es eine neue Weltordnung geben."
+        ],
+        "interaction": [
+            {
+                "actionText": "Hilf mit, die Kerzen zu plzieren",
+                "resultText": [
+                    "<b>Du holst die Kerzen <\b>"
+                    "Als du wieder zurück willst, stolperst du über deine Füße und verteilst die Kerzen auf dem Boden"
+                    "Pass besser auf, dass das nicht gleich beim Ritual passiert!"
+                ],
+                "image": "/assets/skizzen/objekte/scene1kerzen.png",
+                "position": {
+                    "x": 830,
+                    "y": 430
+                },
+                "next": 2
+            },
+            {
+                "actionText": "Setze dich, damit du nicht im Weg bist",
+                "resultText": [
+                    "<b>Du setzt dich auf den Boden. <\b>"
+                    "Leider ist diese Stelle alles, nur nicht aus dem Weg."
+                    "Mehrmals stolpern andere Kultisten fast über dich, wärend sie das Ritual vorbereiten."
+                    "Pass zumindest auf, dass du gleich beim Ritual nicht im Weg bist."
+                ],
+                "image": "/assets/skizzen/objekte/scene1fleck.png",
+                "position": {
+                    "x": 700,
+                    "y": 400
+                },
+                "next": 2
+            },
+            {
+                "actionText": "Hilf mit, das Pentagramm zu malen",
+                "resultText": [
+                    "<b>Du nimmst dir rote Farbe <\b>"
+                    "Als du aufstehst, um an der nächsten Stelle zu mahlen, trittst du auf deinen Umhang und verschüttest das Pulver"
+                    "Ihr habt zwar noch genug Pulver, um den Ritualkreis zu beenden, aber es hat schon seinen Grund, dass du beim eigentlichen Ritual keine Aufgabe bekommen hast."
+                ],
+                "image": "/assets/skizzen/objekte/scene1anhaenger.png",
+                "position": {
+                    "x": 450,
+                    "y": 100
+                },
+                "next": 2
+            }
+        ]
+
+        
+    },
     {
 
     }
