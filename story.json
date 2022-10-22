@@ -7,16 +7,16 @@
         "backgroundImage": "/assets/skizzen/backgrounds/scene01.png",
         "texts": [ 
             "Wilkommen.",
-            "Endlich ist es so weit."
-            "Es müssen nurnoch die letzten Vorbereitungen getätigt werden und das große Ritual kann beginnen."
+            "Endlich ist es so weit.",
+            "Es müssen nurnoch die letzten Vorbereitungen getätigt werden und das große Ritual kann beginnen.",
             "Die Herschrinn wird wieder kommen und mit ihr wird es eine neue Weltordnung geben."
         ],
         "interaction": [
             {
                 "actionText": "Hilf mit, die Kerzen zu plzieren",
                 "resultText": [
-                    "<b>Du holst die Kerzen <\b>"
-                    "Als du wieder zurück willst, stolperst du über deine Füße und verteilst die Kerzen auf dem Boden"
+                    "<b>Du holst die Kerzen <\b>",
+                    "Als du wieder zurück willst, stolperst du über deine Füße und verteilst die Kerzen auf dem Boden",
                     "Pass besser auf, dass das nicht gleich beim Ritual passiert!"
                 ],
                 "image": "/assets/skizzen/objekte/scene01kerzen.png",
@@ -29,9 +29,9 @@
             {
                 "actionText": "Setze dich, damit du nicht im Weg bist",
                 "resultText": [
-                    "<b>Du setzt dich auf den Boden. <\b>"
-                    "Leider ist diese Stelle alles, nur nicht aus dem Weg."
-                    "Mehrmals stolpern andere Kultisten fast über dich, wärend sie das Ritual vorbereiten."
+                    "<b>Du setzt dich auf den Boden. <\b>",
+                    "Leider ist diese Stelle alles, nur nicht aus dem Weg.",
+                    "Mehrmals stolpern andere Kultisten fast über dich, wärend sie das Ritual vorbereiten.",
                     "Pass zumindest auf, dass du gleich beim Ritual nicht im Weg bist."
                 ],
                 "image": "/assets/skizzen/objekte/scene01fleck.png",
@@ -44,8 +44,8 @@
             {
                 "actionText": "Hilf mit, das Pentagramm zu malen",
                 "resultText": [
-                    "<b>Du nimmst dir rote Farbe <\b>"
-                    "Als du aufstehst, um an der nächsten Stelle zu mahlen, trittst du auf deinen Umhang und verschüttest das Pulver"
+                    "<b>Du nimmst dir rote Farbe <\b>",
+                    "Als du aufstehst, um an der nächsten Stelle zu mahlen, trittst du auf deinen Umhang und verschüttest das Pulver",
                     "Ihr habt zwar noch genug Pulver, um den Ritualkreis zu beenden, aber es hat schon seinen Grund, dass du beim eigentlichen Ritual keine Aufgabe bekommen hast."
                 ],
                 "image": "/assets/skizzen/objekte/scene01anhaenger.png",
@@ -64,16 +64,16 @@
         "backgroundImage": "/assets/skizzen/backgrounds/scene02.png",
         "texts": [ 
             "Bei Dämmerung ist nun alles so weit.",
-            "Andächtig stehen alle um den Ritualkreis herum."
+            "Andächtig stehen alle um den Ritualkreis herum.",
             "Eine leichte Böhe weht und die Kerzen gehen eine nach der anderen aus."
         ],
         "interaction": [
             {
                 "actionText": "Locke die Katze an",
                 "resultText": [
-                    "<b>Du machst fieb Geräusche mit deinem Mund <\b>"
-                    "Plätzlich verschluckst du dich dabei."
-                    "Du musst husten und die Katze rennt weg."
+                    "<b>Du machst fieb Geräusche mit deinem Mund <\b>",
+                    "Plätzlich verschluckst du dich dabei.",
+                    "Du musst husten und die Katze rennt weg.",
                     "Immerhin kann sie jetzt nicht mehr das Ritual stören."
                 ],
                 "image": "/assets/skizzen/objekte/scene02katze.png",
@@ -86,10 +86,10 @@
             {
                 "actionText": "Zünde die Kerzen wieder an",
                 "resultText": [
-                    "<b>Du entfachst ein Schwefelholz, um damit die Kerze wieder zu entzünden. <\b>"
-                    "Doch das Hölzchen brennt besser als erwartet."
-                    "Du verbrennst dir die Finger und lässt es fallen."
-                    "Das Zündholz erlischt und auch das ausgehen der Kerzen lässt sich somit nicht mehr aufhalten."
+                    "<b>Du entfachst ein Schwefelholz, um damit die Kerze wieder zu entzünden. <\b>",
+                    "Doch das Hölzchen brennt besser als erwartet.",
+                    "Du verbrennst dir die Finger und lässt es fallen.",
+                    "Das Zündholz erlischt und auch das ausgehen der Kerzen lässt sich somit nicht mehr aufhalten.",
                     "Bei genauerem hinsehen merkst du aber, dass die Kerzen systematisch aus gehen."
                 ],
                 "image": "/assets/skizzen/objekte/scene02Kerze.png",
@@ -102,15 +102,17 @@
             {
                 "actionText": "Sage selbst die Beschwörung",
                 "resultText": [
-                    "<b>Du drückst euren Anführer weg<\b>"
-                    "Wärend du ließt "
+                    "<b>Du drückst euren Anführer weg<\b>",
+                    "Wärend du ließt verschwimmen die Buchstaben vor deinem Auge.",
+                    "Um nicht wie ein Idiot da zu stehen, denkst du dir den Text aus und redest einfach immer weiter.",
+                    ""
                 ],
                 "image": "/assets/skizzen/objekte/scene01anhaenger.png",
                 "position": {
                     "x": 450,
                     "y": 100
                 },
-                "next": 2
+                "next": -1
             }
         ]
 
