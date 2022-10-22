@@ -12,7 +12,6 @@ function init() {
     readJson('./story.json').then(res => {
         openStory(res)
     });
-
 }
 
 function openStory(s) {
@@ -71,9 +70,11 @@ function nextText() {
         return;
     }
 
-
-    document.getElementById('texts').innerHTML += texts[0] + '<br>';
+    const t = document.createElement('div');
+    t.innerHTML = texts[0] + '<br>';
+    document.getElementById('texts').appendChild(t);
     texts.shift();
+    t.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 
     function activateActionElements() {
         const elements = document.getElementsByClassName('actionElement');
@@ -83,7 +84,6 @@ function nextText() {
         }
     }
 }
-
 
 function setBackground(path) {
     document.getElementById('background').querySelector('img').src = path;
