@@ -76,7 +76,7 @@
                     "Du musst husten und die Katze rennt weg.",
                     "Immerhin kann sie jetzt nicht mehr das Ritual stören."
                 ],
-                "image": "/assets/skizzen/objekte/scene02katze.png",
+                "image": "./assets/skizzen/objekte/scene02katze.png",
                 "position": {
                     "x": 830,
                     "y": 430
@@ -92,7 +92,7 @@
                     "Das Zündholz erlischt und auch das ausgehen der Kerzen lässt sich somit nicht mehr aufhalten.",
                     "Bei genauerem hinsehen merkst du aber, dass die Kerzen systematisch aus gehen."
                 ],
-                "image": "/assets/skizzen/objekte/scene02kerze.png",
+                "image": "./assets/skizzen/objekte/scene02kerze.png",
                 "position": {
                     "x": 700,
                     "y": 400
@@ -107,7 +107,7 @@
                     "Um nicht wie ein Idiot da zu stehen, denkst du dir den Text aus und redest einfach immer weiter.",
                     "Ein Großes Schwarzes Loch frisst alles auf."
                 ],
-                "image": "/assets/skizzen/objekte/scene02leiter.png",
+                "image": "./assets/skizzen/objekte/scene02leiter.png",
                 "position": {
                     "x": 450,
                     "y": 100
@@ -120,7 +120,7 @@
     },
     {
         "id": 3,
-        "backgroundImage": "/assets/skizzen/backgrounds/scene03.png",
+        "backgroundImage": "./assets/skizzen/backgrounds/scene03.png",
         "texts": [ 
             "Als die letzte Kerze erlischt, flammt das Pentagram auf und eine Gestalt erscheint.",
             "Ein Andächtiges schweigen hat sich unter euch gebildet."
@@ -134,7 +134,7 @@
                     "Ein lautes ratschen lässt dich erkennen, dass du dabei auf ihrem Umhang gestanden hasst.",
                     "Panik steigt in dir auf."
                 ],
-                "image": "/assets/skizzen/objekte/scene03daemon.png",
+                "image": "./assets/skizzen/objekte/scene03daemon.png",
                 "position": {
                     "x": 830,
                     "y": 430
@@ -148,7 +148,7 @@
                     "Als du ihr den Kelch an ihre Lippen hällst schüttest du außversehen den Wein auf ihren Umhang",
                     "Panik steigt in dir auf."
                 ],
-                "image": "/assets/skizzen/objekte/scene03trinken.png",
+                "image": "./assets/skizzen/objekte/scene03trinken.png",
                 "position": {
                     "x": 700,
                     "y": 400
@@ -164,7 +164,7 @@
                     "Anmutig erhebt sie sich und streift dabei ihren Umhang ab.",
                     "Gebannt von ihr folgt ihr zum Mahl."
                 ],
-                "image": "/assets/skizzen/objekte/scene03laufen.png",
+                "image": "./assets/skizzen/objekte/scene03laufen.png",
                 "position": {
                     "x": 450,
                     "y": 100
@@ -177,7 +177,7 @@
     },
     {
         "id": 4,
-        "backgroundImage": "/assets/skizzen/backgrounds/scene03.png",
+        "backgroundImage": "./assets/skizzen/backgrounds/scene03.png",
         "texts": [ 
             "Du willst nicht den Zorn des ganzen Kultes auf dich ziehen."
         ],
@@ -190,7 +190,7 @@
                     "Sie lässt den unbrauchbaren Mantel liegen und schreitet anmutig zum Festmahl.",
                     "Du läufst den anderen bedröppelt hinterher."
                 ],
-                "image": "/assets/skizzen/objekte/scene04panik.png",
+                "image": "./assets/skizzen/objekte/scene04panik.png",
                 "position": {
                     "x": 830,
                     "y": 430
@@ -206,7 +206,7 @@
                     "Die Dämonin ignoriert dich und schreitet einfach über deinen Mantel rüber.",
                     "Die restlichen Kultisten folgen ihren anmutigen Schritten."
                 ],
-                "image": "/assets/skizzen/objekte/scene04umhang.png",
+                "image": "./assets/skizzen/objekte/scene04umhang.png",
                 "position": {
                     "x": 700,
                     "y": 400
@@ -219,7 +219,7 @@
     },
     {
         "id": 5,
-        "backgroundImage": "/assets/skizzen/backgrounds/scene05.png",
+        "backgroundImage": "./assets/skizzen/backgrounds/scene05.png",
         "texts": [ 
             "Drinnen angekommen baut sich ein reich gedecktes Bankett auf.",
             "Der Duft unzähliger Speisen steigt dir in die Nase."
@@ -232,7 +232,7 @@
                     "Gerade drehst du dich um, damit sich alle bedienen können, da rutscht das Essen von der Platte und die Umstehenden schauen dich wütend an.",
                     "Du solltest besser den Raum verlassen, bevor alle mitbekommen, dass du auch noch das Festessen ruiniert hast."
                 ],
-                "image": "/assets/skizzen/objekte/scene05servieren.png",
+                "image": "./assets/skizzen/objekte/scene05servieren.png",
                 "position": {
                     "x": 830,
                     "y": 430
@@ -247,7 +247,7 @@
                     "Leider hast du dabei das Atmen vergessen. Du verschluckst dich und beginnst zu husten.",
                     "Um nicht die ganze Prozedur aufzuhalten gehst du schnell nach draußen."
                 ],
-                "image": "/assets/skizzen/objekte/scene05essen.png",
+                "image": "./assets/skizzen/objekte/scene05essen.png",
                 "position": {
                     "x": 700,
                     "y": 400
@@ -265,7 +265,7 @@
                     "Eine algemeine Unruhe entsteht",
                     "Die ersten beginnen nach draußen zu rennen"
                 ],
-                "image": "/assets/skizzen/objekte/scene05flirten.png",
+                "image": "./assets/skizzen/objekte/scene05flirten.png",
                 "position": {
                     "x": 700,
                     "y": 400
@@ -278,7 +278,7 @@
     },
     {
         "id": 7,
-        "backgroundImage": "/assets/skizzen/backgrounds/scene07.png",
+        "backgroundImage": "./assets/skizzen/backgrounds/scene07.png",
         "texts": [ 
             "Draußen schlägt dir die kühle Nachtluft entgegen.",
             "Das hätte drnnen ganzschön peinlich werden können.",
@@ -295,7 +295,7 @@
                     "Anscheinend fehlen ihr jegliche Dämonischen Kräfte.",
                     "Das erklärt auch, warum die anderen Kultisten so panisch waren."
                 ],
-                "image": "/assets/skizzen/objekte/scene07rein.png",
+                "image": "./assets/skizzen/objekte/scene07rein.png",
                 "position": {
                     "x": 830,
                     "y": 430
@@ -308,7 +308,7 @@
                     "<b>Was auch immer dort vor sich geht, du willst damit nichts zu tun haben und gehst weg von den Feierlichkeiten. </b>",
                     "Bestimmt geben wieder alle dir die Schuld und dabei hast du doch garnichts gemacht."
                 ],
-                "image": "/assets/skizzen/objekte/scene07weg.png",
+                "image": "./assets/skizzen/objekte/scene07weg.png",
                 "position": {
                     "x": 700,
                     "y": 400
@@ -321,7 +321,7 @@
     },
     {
         "id": 8,
-        "backgroundImage": "/assets/skizzen/backgrounds/scene08.png",
+        "backgroundImage": "./assets/skizzen/backgrounds/scene08.png",
         "texts": [ 
             "Wieso hatte die Dämonin keine Macht?",
             "War beim Ritual etwas schief gelaufen?",
@@ -338,7 +338,7 @@
                     "Sie scheinen vollkommen überzeugt, das Ritual nochmals rückwärts durchzuführen.",
                     "Da die meisten Sachen noch vorbereitet sind gibt es nicht mehr viel zu tun."
                 ],
-                "image": "/assets/skizzen/objekte/scene08witz.png",
+                "image": "./assets/skizzen/objekte/scene08witz.png",
                 "position": {
                     "x": 830,
                     "y": 430
@@ -351,7 +351,7 @@
                     "<b>Du willst auf den Felsen klettern, um dich umzuschauen. </b>",
                     "Doch direkt nach dem ersten Meter entdechst du große Kratzspuren die an dem Felsen sind."
                 ],
-                "image": "/assets/skizzen/objekte/scene08fels.png",
+                "image": "./assets/skizzen/objekte/scene08fels.png",
                 "position": {
                     "x": 700,
                     "y": 400
@@ -364,7 +364,7 @@
     },
     {
         "id": 9,
-        "backgroundImage": "/assets/skizzen/backgrounds/scene07.png",
+        "backgroundImage": "./assets/skizzen/backgrounds/scene07.png",
         "texts": [ 
             "Als du dich abwendest, siehst du du ein weinendes Mädchen am Wegesrand.",
             "Sie sucht verzweifelt nach ihrer Katze.",
@@ -381,7 +381,7 @@
                     "Sie scheinen vollkommen überzeugt, das Ritual nochmals rückwärts durchzuführen.",
                     "Da die meisten Sachen noch vorbereitet sind gibt es nicht mehr viel zu tun."
                 ],
-                "image": "/assets/skizzen/objekte/scene08witz.png",
+                "image": "./assets/skizzen/objekte/scene08witz.png",
                 "position": {
                     "x": 830,
                     "y": 430
@@ -394,7 +394,7 @@
                     "<b>Du willst auf den Felsen klettern, um dich umzuschauen. </b>",
                     "Doch direkt nach dem ersten Meter entdechst du große Kratzspuren die an dem Felsen sind."
                 ],
-                "image": "/assets/skizzen/objekte/scene08fels.png",
+                "image": "./assets/skizzen/objekte/scene08fels.png",
                 "position": {
                     "x": 700,
                     "y": 400
