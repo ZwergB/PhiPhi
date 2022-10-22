@@ -1,6 +1,23 @@
+body {
+    margin: 0;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#main {
+    padding: 40px;
+    background-color: black;
+}
+
 #game {
     position: relative;
     height: 90vh;
+    width: 100vh;
 }
 
 #background {
@@ -14,19 +31,27 @@
 #texts {
     min-height: 20%;
     height: 20%;
+    width: 100%;
     background-color: rgb(202, 202, 202);
 }
 
-#actionElements img {
+.actionElement {
     position: absolute;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
-#actionElements img{
-    border: 5px dotted red;
-    transition: .2s linear border-color;
+#actionElements {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
-#actionElements img:hover {
-    border: 5px dotted green !important;
+.actionElement[active~="false"] {
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.15);
     
+}
+.actionElement[active~="true"] {
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.15);
 }

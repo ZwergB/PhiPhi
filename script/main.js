@@ -33,10 +33,30 @@ function openStoryScreen(screen) {
         createActionElement(element)        
     }
 
-    for (const text of screen.texts) {
-        document.getElementById('texts')
+    document.getElementById('main').addEventListener('click', nextText);
+
+    function nextText(texts) {
+        texts = screen.texts;
+        console.log(texts)
+        document.getElementById('texts').innerText += texts[0] + '\n';
+        texts.shift();
+    
+        if (!texts.length) {
+            document.getElementById('main').removeEventListener('click', nextText);
+            activateActionElements();
+
+        }
+    }
+
+    function activateActionElements() {
+        const elements = document.getElementsByClassName('actionElement');
+        
+        for (const element of elements) {
+            element.setAttribute("active", true);
+        }
     }
 }
+
 
 function setBackground(path) {
     document.getElementById('background').querySelector('img').src = 'bg.png';
@@ -46,12 +66,14 @@ function createActionElement(element) {
     const parent = document.getElementById('actionElements');
 
     const div = document.createElement('div');
+    div.classList.add('actionElement');
+    div.setAttribute("active", false);
+    div.style.left = element.position.x + 'px';
+    div.style.top = element.position.y + 'px';
     parent.appendChild(div);
 
     const img = document.createElement('img');
     img.src = element.image;
-    img.style.left = element.position.x + 'px';
-    img.style.top = element.position.y + 'px';
     div.appendChild(img);
     console.log(img)
 }
