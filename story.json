@@ -1,0 +1,30 @@
+{
+    "title": "Hier steht ein Titel",
+    "firstChapter": 0,
+    "story": [
+    {
+        "id": 0,
+        "backgroundImage": "bg.png",
+        "texts": [ 
+            "Hier steht der TExt der ersten Zeile.",
+            "Hier steht der Text der zweiten Zeile."
+        ],
+        "interaction": [
+            {
+                "actionText": "Text einer Möglichkeit",
+                "resultText": "Text nach einer Option",
+                "image": "bg1.png",
+                "position": {
+                    "x": 200,
+                    "y": 400
+                }
+            }
+        ],
+
+        "next": 1
+    }, 
+    {
+
+    }
+    ]
+}

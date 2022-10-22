@@ -1,0 +1,32 @@
+#game {
+    position: relative;
+    height: 90vh;
+}
+
+#background {
+    height: 80%;
+}
+
+#background img{
+    height: 100%;
+}
+
+#texts {
+    min-height: 20%;
+    height: 20%;
+    background-color: rgb(202, 202, 202);
+}
+
+#actionElements img {
+    position: absolute;
+}
+
+#actionElements img{
+    border: 5px dotted red;
+    transition: .2s linear border-color;
+}
+
+#actionElements img:hover {
+    border: 5px dotted green !important;
+    
+}
