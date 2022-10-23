@@ -67,7 +67,7 @@ function nextText() {
         t.classList.add('bold');
     }
     firstText = false;
-    // t.innerHTML = texts[0] + '<br>';
+    t.innerHTML = '&#160;';
     printLetterByLetter(t, texts[0], 25)
     document.getElementById('texts').appendChild(t);
     texts.shift();
@@ -114,7 +114,6 @@ function createActionElement(element) {
     storyText.classList.add('invis', 'storyText');
 
     for (const text of element.resultText) {
-        console.log(text)
         const t = document.createElement('span');
         t.innerHTML = text;
         storyText.appendChild(t);
@@ -176,4 +175,5 @@ async function readJson (url) {
             clearInterval(interval);
         }
     }, speed);
+
 }
