@@ -1,7 +1,6 @@
 addEventListener('load', init);
 
 let texts = [];
-let wholeStory;
 let currentchapter;
 
 let currentId;
@@ -11,6 +10,13 @@ let firstText = true;
 let lastText;
 
 const images = [];
+const sound = new Audio('./assets/sound/GameJam.mp3');
+document.addEventListener('click', playSound);
+function playSound() {
+    document.removeEventListener('click', playSound);
+    sound.play();
+}
+
 
 function init() {
     console.log('init');
@@ -107,7 +113,19 @@ function nextText() {
         const elements = document.getElementsByClassName('actionElement');
         
         for (const element of elements) {
-            element.setAttribute("active", true);
+            element.setAttribute('active', true);
+
+            const img = element.querySelector('img').cloneNode();
+            img.classList.add('copyAction')
+            let path = img.src;
+            path = path.substring(0, path.length-4);
+            path += 'leuchtend.png'
+            img.src = path;
+            element.appendChild(img);
+
+            setTimeout(function() {
+                element.removeChild(img)
+            }, 800)
         }
     }
 }
@@ -221,6 +239,7 @@ async function readJson (url) {
         destination.innerHTML += message.charAt(i);
         i++;
         if (i > message.length){
+            destination.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
             clearInterval(interval);
         }
     }, speed);

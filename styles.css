@@ -48,6 +48,8 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 #background img{
     width: 1200px;
     height: auto;   
+
+    animation: offOn .3s;
 }
 
 #texts {
@@ -68,19 +70,14 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 
 .actionElement {
     position: absolute;
-    transition: box-shadow 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
     scale: 0.7;
+
+
 }
 
-.actionElement[active~="false"] {
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    
-}
-.actionElement[active~="true"] {
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.363), -1px -1px 3px rgba(0, 0, 0, 0.363) ;
-}
-.actionElement[active~="true"]:hover {
-    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0), -1px -1px 3px rgba(255, 255, 255, 0) ;
+.actionElement img {
+    animation: offOn .3s;
 }
 
 .invis {
@@ -105,12 +102,50 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     margin-left: -60px;
 
     transition: .2s opacity linear;
+
+    pointer-events: none;
   }
   
   .actionElement[active~="true"].tooltip:hover .tooltiptext {
     opacity: 1;
   }
 
+  .actionElement[active~="true"]:active {
+    transform: translate(2px, 2px);
+
+}
+
   .bold {
     font-weight: bold;
+  }
+
+
+.copyAction {
+    position: absolute;
+    left:0;
+    top:0;
+
+    opacity: 0;
+
+    animation: offOnOff .7s !important;
+}
+
+@keyframes offOnOff {
+    0%    { opacity: 0; }
+    35%   { opacity: 0.4; }
+    100%  { opacity: 0; }
+}
+
+@keyframes offOn {
+    0% {opacity: 0; }
+    100% {opacity: 1; }
+}
+
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
   }
