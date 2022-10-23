@@ -1,6 +1,6 @@
 {
     "title": "Hier steht ein Titel",
-    "firstChapter": 7,
+    "firstChapter": 5,
     "story": [
         {
             "id": -1,
@@ -342,7 +342,7 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene05flirten.png",
                 "position": {
-                    "x": 750,
+                    "x": 765,
                     "y": 280
                 },
                 "next": 8
