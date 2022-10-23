@@ -372,7 +372,7 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene07rein.png",
                 "position": {
-                    "x": 100,
+                    "x": 200,
                     "y": 400
                 },
                 "next": 8
@@ -414,8 +414,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene08witz.png",
                 "position": {
-                    "x": 830,
-                    "y": 250
+                    "x": 470,
+                    "y": 400
                 },
                 "next": 10
             },
@@ -427,8 +427,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene08fels.png",
                 "position": {
-                    "x": 760,
-                    "y": 330
+                    "x": 600,
+                    "y": 100
                 },
                 "next": 11
             }
@@ -546,8 +546,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene11anschleichen.png",
                 "position": {
-                    "x": 400,
-                    "y": 150
+                    "x": 412,
+                    "y": 140
                 },
                 "next": -1
             },
@@ -631,8 +631,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene12anhimmeln.png",
                 "position": {
-                    "x": 500,
-                    "y": 250
+                    "x": 460,
+                    "y": 205
                 },
                 "next": 13
             }
