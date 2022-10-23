@@ -21,8 +21,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene01kerzen.png",
                 "position": {
-                    "x": 700,
-                    "y": 430
+                    "x": 1650,
+                    "y": 750
                 },
                 "next": 2
             },
@@ -36,8 +36,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene01fleck.png",
                 "position": {
-                    "x": 850,
-                    "y": 400
+                    "x": 1440,
+                    "y": 820
                 },
                 "next": 2
             },
@@ -50,8 +50,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene01anhaenger.png",
                 "position": {
-                    "x": 370,
-                    "y": 290
+                    "x": 680,
+                    "y": 570
                 },
                 "next": 2
             }
