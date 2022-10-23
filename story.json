@@ -1,6 +1,6 @@
 {
     "title": "Hier steht ein Titel",
-    "firstChapter": 0,
+    "firstChapter": 1,
     "story": [
         {
             "id": 0,
@@ -17,14 +17,12 @@
                     ],
                     "image": "./assets/skizzen/objekte/scene-02.png",
                     "position": {
-                        "x": 0,
-                        "y": 0
+                        "x": -370,
+                        "y": -200
                     },
                     "next": 1
                 }
-            ]
-    
-            
+            ]          
         },
         {
             "id": -1,
