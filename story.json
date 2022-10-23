@@ -642,6 +642,33 @@
         
     },
     {
+        "id": 13,
+        "backgroundImage": "./assets/skizzen/backgrounds/scene13.png",
+        "texts": [ 
+            "Danke für das Spielen unserer kleinen Geschichte.",
+            "Credits:",
+            "Head of beautifull art: brownie2705 | Lissi",
+            "Head of gracefull code: ZwergB | Ben",
+            "Head of confusing story: 404cokieNotFound | Lennart"
+        ],
+        "interaction": [
+            {
+                "actionText": "Zurück zum Start",
+                "resultText": [
+                    ""
+                ],
+                "image": "./assets/skizzen/objekte/scene11weg.png",
+                "position": {
+                    "x": 0,
+                    "y": 400
+                },
+                "next": 1
+            }
+        ]
+
+        
+    },
+    {
 
     }
     ]
