@@ -8,15 +8,16 @@
         "texts": [ 
             "Wilkommen.",
             "Endlich ist es so weit.",
-            "Es müssen nurnoch die letzten Vorbereitungen getätigt werden und das große Ritual kann beginnen.",
-            "Die Herschrinn wird wieder kommen und mit ihr wird es eine neue Weltordnung geben."
+            "Es müssen noch die letzten Vorbereitungen erledigt werden damit das große Ritual kann beginnen.",
+            "Die Herscherin wird wieder kommen und mit ihr wird es eine neue Weltordnung geben.",
+            "Du möchtest bei den Vorbereitungen helfen."
         ],
         "interaction": [
             {
-                "actionText": "Hilf mit, die Kerzen zu plzieren",
+                "actionText": "Hilf mit die Kerzen zu platzieren",
                 "resultText": [
                     "Du holst die Kerzen",
-                    "Als du wieder zurück willst, stolperst du über deine Füße und verteilst die Kerzen auf dem Boden",
+                    "Als du wieder zurück gehst, stolperst du über deine Füße und verteilst die Kerzen auf dem Boden",
                     "Pass besser auf, dass das nicht gleich beim Ritual passiert!"
                 ],
                 "image": "./assets/skizzen/objekte/scene01kerzen.png",
@@ -31,8 +32,8 @@
                 "resultText": [
                     "Du setzt dich auf den Boden.",
                     "Leider ist diese Stelle alles, nur nicht aus dem Weg.",
-                    "Mehrmals stolpern andere Kultisten fast über dich, wärend sie das Ritual vorbereiten.",
-                    "Pass zumindest auf, dass du gleich beim Ritual nicht im Weg bist."
+                    "Mehrmals stolpern andere Kultisten über dich während sie das Ritual vorbereiten.",
+                    "Pass besser auf, dass du nicht gleich beim Ritual im Weg bist!"
                 ],
                 "image": "./assets/skizzen/objekte/scene01fleck.png",
                 "position": {
@@ -42,11 +43,11 @@
                 "next": 2
             },
             {
-                "actionText": "Hilf mit, das Pentagramm zu malen",
+                "actionText": "Hilf mit das Pentagramm zu malen",
                 "resultText": [
                     "Du nimmst dir rote Farbe",
-                    "Als du aufstehst, um an der nächsten Stelle zu mahlen, trittst du auf deinen Umhang und verschüttest das Pulver",
-                    "Ihr habt zwar noch genug Pulver, um den Ritualkreis zu beenden, aber es hat schon seinen Grund, dass du beim eigentlichen Ritual keine Aufgabe bekommen hast."
+                    "Als du aufstehst, um an der nächsten Stelle zu malen, trittst du auf deinen Umhang und verschüttest das Pulver",
+                    "Ihr habt zwar noch genug Pulver um den Ritualkreis zu beenden, aber es hat wohl seinen Grund, dass du bei der Beschwörung keine Aufgabe bekommen hast."
                 ],
                 "image": "./assets/skizzen/objekte/scene01anhaenger.png",
                 "position": {
@@ -63,7 +64,7 @@
         "id": 2,
         "backgroundImage": "./assets/skizzen/backgrounds/scene02.png",
         "texts": [ 
-            "Bei Dämmerung ist nun alles so weit.",
+            "Dämmerung tritt ein und die Beschwörung ist im vollen Gange.",
             "Andächtig stehen alle um den Ritualkreis herum.",
             "Eine leichte Böhe weht und die Kerzen gehen eine nach der anderen aus."
         ],
@@ -71,9 +72,8 @@
             {
                 "actionText": "Locke die Katze an",
                 "resultText": [
-                    "Du machst fieb Geräusche mit deinem Mund",
-                    "Plätzlich verschluckst du dich dabei.",
-                    "Du musst husten und die Katze rennt weg.",
+                    "Du versucht die Katze mit verschiedene Geräuschen und Gesten anzulocken",
+                    "Plötzlich spührst du ein starkes kratzen im Hals, du musst husten und die Katze rennt weg.",
                     "Immerhin kann sie jetzt nicht mehr das Ritual stören."
                 ],
                 "image": "./assets/skizzen/objekte/scene02katze.png",
@@ -86,11 +86,10 @@
             {
                 "actionText": "Zünde die Kerzen wieder an",
                 "resultText": [
-                    "Du entfachst ein Schwefelholz, um damit die Kerze wieder zu entzünden.",
-                    "Doch das Hölzchen brennt besser als erwartet.",
-                    "Du verbrennst dir die Finger und lässt es fallen.",
-                    "Das Zündholz erlischt und auch das ausgehen der Kerzen lässt sich somit nicht mehr aufhalten.",
-                    "Bei genauerem hinsehen merkst du aber, dass die Kerzen systematisch aus gehen."
+                    "Du entfachst ein Schwefelholz um damit die Kerze wieder zu entzünden.",
+                    "Doch das Hölzchen brennt besser als erwartet, du verbrennst dir die Finger und lässt es fallen.",
+                    "Das Zündholz erlischt und auch das Ausgehen der Kerzen lässt sich somit nicht mehr aufhalten.",
+                    "Bei genauerem hinsehen fällt dir auf, dass die Kerzen im Uhrzeigersinn, eine nach der anderen, ausgehen. Das kann nicht der Wind sein."
                 ],
                 "image": "./assets/skizzen/objekte/scene02kerze.png",
                 "position": {
@@ -102,10 +101,10 @@
             {
                 "actionText": "Sage selbst die Beschwörung",
                 "resultText": [
-                    "Du drückst euren Anführer weg",
-                    "Wärend du ließt verschwimmen die Buchstaben vor deinem Auge.",
+                    "Du stößt euren Anführer weg",
+                    "Während du versucht die Formeln zu lesen verschwimmen die Buchstaben vor deinem Auge.",
                     "Um nicht wie ein Idiot da zu stehen, denkst du dir den Text aus und redest einfach immer weiter.",
-                    "Ein Großes Schwarzes Loch frisst alles auf."
+                    "Ein schwarzes Loch öffnet sich inmitten des Beschwörungskreises und beginnt alles und jeden zu verschlingen."
                 ],
                 "image": "./assets/skizzen/objekte/scene02leiter.png",
                 "position": {
@@ -122,16 +121,17 @@
         "id": 3,
         "backgroundImage": "./assets/skizzen/backgrounds/scene03.png",
         "texts": [ 
-            "Als die letzte Kerze erlischt, flammt das Pentagram auf und eine Gestalt erscheint.",
-            "Ein Andächtiges schweigen hat sich unter euch gebildet."
+            "Als die letzte Kerze erlischt, flammt das Pentagram auf und eine Gestalt erscheint im Zentrum des Beschwörungskreises.",
+            "Ein andächtiges Schweigen verbreitet sich unter den Anwesenden.",
+            "Du fühlst dich dazu angehalten irgendetwas zu tun."
         ],
         "interaction": [
             {
                 "actionText": "Hilf der Dämonin auf",
                 "resultText": [
-                    "Um deine Treue unter beweis zu stellen, eilst du direkt zu ihr.",
+                    "Um deine Treue unter Beweis zu stellen eilst zur der Dämonin zur Seite.",
                     "Du reichst ihr deinen Arm und ziehst sie hoch.",
-                    "Ein lautes ratschen lässt dich erkennen, dass du dabei auf ihrem Umhang gestanden hasst.",
+                    "Ein lautes ratschen lässt dich erkennen, dass du dabei ihren Umhang zerrissen hast.",
                     "Panik steigt in dir auf."
                 ],
                 "image": "./assets/skizzen/objekte/scene03daemon.png",
@@ -142,10 +142,10 @@
                 "next": 4
             },
             {
-                "actionText": "Bring ihr ein Getränk",
+                "actionText": "Bring der Dämonin ein Getränk",
                 "resultText": [
-                    "Du hohlst ihr was zu trinken.",
-                    "Als du ihr den Kelch an ihre Lippen hällst schüttest du außversehen den Wein auf ihren Umhang",
+                    "Du holst der Dämonin etwas zu trinken.",
+                    "Als du ihr den Kelch an die Lippen hälst verschüttest du einen großen Schluck des Weins auf ihren Umhang",
                     "Panik steigt in dir auf."
                 ],
                 "image": "./assets/skizzen/objekte/scene03trinken.png",
@@ -158,11 +158,11 @@
             {
                 "actionText": "Laufe vor zum Festessen",
                 "resultText": [
-                    "Du rennst los, um als erster beim Festmahl zu sein.",
-                    "Dabei rutscht du auß und hinterlässt eine Schneise der Verwüstung.",
-                    "Immerhin ist jetzt eine Schneise da, durch die die Dämonin schreiten kann",
+                    "Du rennst los um als Erster beim Festmahl zu sein.",
+                    "Dabei rutscht du aus und hinterlässt eine Schneise der Verwüstung.",
+                    "Immerhin ist jetzt eine Schneise da, durch die die Dämonin schreiten kann.",
                     "Anmutig erhebt sie sich und streift dabei ihren Umhang ab.",
-                    "Gebannt von ihr folgt ihr zum Mahl."
+                    "Die Kultisten folgen den nahezu magischen Bewegungen der Dämonin."
                 ],
                 "image": "./assets/skizzen/objekte/scene03laufen.png",
                 "position": {
@@ -179,16 +179,17 @@
         "id": 4,
         "backgroundImage": "./assets/skizzen/backgrounds/scene03.png",
         "texts": [ 
-            "Du willst nicht den Zorn des ganzen Kultes auf dich ziehen."
+            "Du merkst wie sich alle Blicke auf dich richten, zuerst behinderst du die Vorbereitungen und jetzt das.",
+            "Irgendetwas muss du tun um die Situation zu entschärfen."
         ],
         "interaction": [
             {
                 "actionText": "Verfalle in Panik",
                 "resultText": [
-                    "Du fuchtelst mit den Armen und versuchst eine algemeine Panik auszulösen",
-                    "Die Dämonin lacht und der ganze Kult fängt an dich auszulachen.",
-                    "Sie lässt den unbrauchbaren Mantel liegen und schreitet anmutig zum Festmahl.",
-                    "Du läufst den anderen bedröppelt hinterher."
+                    "Du fuchtelst mit den Armen und versuchst eine allgemeine Panik auszulösen.",
+                    "Die Dämonin lächelt und der ganze Kult fängt an dich auszulachen.",
+                    "Die Dämonin lässt den unbrauchbaren Mantel liegen und schreitet anmutig zum Festmahl, gefolgt von den Anderen Kultisten.",
+                    "Du läufst bedröppelt hinterher."
                 ],
                 "image": "./assets/skizzen/objekte/scene04panik.png",
                 "position": {
@@ -200,10 +201,10 @@
             {
                 "actionText": "Biete deinen Mantel an",
                 "resultText": [
-                    "Du prbierst schnell ihr stattdessen deinen Mantel zu reichen.",
+                    "Du reichst der Dämonin deinen Mantel.",
                     "Du löst die Schnalle, um ihn von deinen Schultern zu lösen.",
-                    "Doch gerade jene schnalle bleibt nun an deinen restlichen Gewändern hängen und dein Mantel fällt auf den Boden.",
-                    "Die Dämonin ignoriert dich und schreitet einfach über deinen Mantel rüber.",
+                    "Doch gerade jene Schnalle bleibt nun an deinen restlichen Gewändern hängen und der Mantel fällt zu Boden.",
+                    "Die Dämonin ignoriert dich und schreitet einfach über deinen Mantel.",
                     "Die restlichen Kultisten folgen ihren anmutigen Schritten."
                 ],
                 "image": "./assets/skizzen/objekte/scene04umhang.png",
@@ -221,8 +222,9 @@
         "id": 5,
         "backgroundImage": "./assets/skizzen/backgrounds/scene05.png",
         "texts": [ 
-            "Drinnen angekommen baut sich ein reich gedecktes Bankett auf.",
-            "Der Duft unzähliger Speisen steigt dir in die Nase."
+            "Im Festsaal angekommen erblickst du zwei große Tische mit reich gedecktes Bankett.",
+            "Der Duft unzähliger Speisen steigt dir in die Nase und lässt deinen Magen knurren.",
+            "Die Dämonin hat bereits Platz genommen."
         ],
         "interaction": [
             {
@@ -230,7 +232,7 @@
                 "resultText": [
                     "Du nimmst dir eine Spieseplatte, um den anderen Essen anzubieten.",
                     "Gerade drehst du dich um, damit sich alle bedienen können, da rutscht das Essen von der Platte und die Umstehenden schauen dich wütend an.",
-                    "Du solltest besser den Raum verlassen, bevor alle mitbekommen, dass du auch noch das Festessen ruiniert hast."
+                    "Du solltest besser den Raum verlassen bevor alle mitbekommen, dass du jetzt auch das Festessen ruiniert hast."
                 ],
                 "image": "./assets/skizzen/objekte/scene05servieren.png",
                 "position": {
@@ -242,10 +244,10 @@
             {
                 "actionText": "Nimm dir essen",
                 "resultText": [
-                    "Du kannst den leckeren Speisen nicht länger wiederstehen und stibitzt dir was vom Tisch.",
-                    "Damit dich niemand bemerkt, steckst du dir schnell die ganze Portion in deinen Mund.",
-                    "Leider hast du dabei das Atmen vergessen. Du verschluckst dich und beginnst zu husten.",
-                    "Um nicht die ganze Prozedur aufzuhalten gehst du schnell nach draußen."
+                    "Du kannst den leckeren Speisen nicht länger widerstehen und stibitzt dir was vom Tisch.",
+                    "Damit dich niemand bemerkt, versucht du die gesamte Portion direkt zu verschlingen.",
+                    "Leider hast du dabei das Atmen vergessen, ein Knochen bleibt dir im Hals stecken und zu beginnst du husten.",
+                    "Um nicht noch mehr Aufmerksamkeit zu erregen verlässt du den Saal und gehst nach draußen."
                 ],
                 "image": "./assets/skizzen/objekte/scene05essen.png",
                 "position": {
@@ -257,13 +259,14 @@
             {
                 "actionText": "Flirte mit der Dämonin",
                 "resultText": [
-                    "Du sagst einen koketten Spruch zu der Dämonin.",
-                    "Sie scheint gerade alles zu wollen, außer deine Anmachversuche zu erwidern.",
-                    "Mit einem tötendem Blick schaut sie dich an.",
-                    "Ihre Hand schnellt nach vorne und sie ruft Worte, die du nicht verstehen kannst.",
-                    "Du wartest darauf, dass dich der Schlag trifft, doch nichts passiert.",
-                    "Eine algemeine Unruhe entsteht",
-                    "Die ersten beginnen nach draußen zu rennen"
+                    "Du baust Blickkontakt mit der Dämonin auf, eure Augen treffen sich. Dir wird erst heiß, dann kalt, dann wieder heiß.",
+                    "Das kann nicht sein, so ein Gefühl hattest du noch nie. Deine Hände fangen an zu schwitzen.",
+                    "Du beginnst dich der Dämonin zu nähern, sie muss doch das Gleiche spühren wie du.",
+                    "Deine Sicht wird klarer und du bemerkst wie die Dämonin dich mit einem tödlichen Blick fixiert.",
+                    "Ihre Hand schnellt nach vorne und sie ruft Worte, die du nicht verstehst.",
+                    "Du erwartest einen Schlag und einen Schmerz, so wie deine Flirtversuche immer Enden, doch nichts passiert.",
+                    "Ein tuscheln geht durch den Saal. War das nicht gerade eine Zauberformel die dir das Herz aus der Brust reißen sollte?",
+                    "Die ersten Kultisten stehen auf und verlassen unruhig den Saal."
                 ],
                 "image": "./assets/skizzen/objekte/scene05flirten.png",
                 "position": {
@@ -280,19 +283,19 @@
         "id": 7,
         "backgroundImage": "./assets/skizzen/backgrounds/scene07.png",
         "texts": [ 
-            "Draußen schlägt dir die kühle Nachtluft entgegen.",
-            "Das hätte drnnen ganzschön peinlich werden können.",
-            "Plötzlich hörst du Unruhe von drinnen.",
-            "Was dort wohl vor sich geht?"
+            "Draußen schlägt dir die kühle Luft entgegen.",
+            "Das hätte gerade ganz schön peinlich werden können.",
+            "Plötzlich hörst du Unruhe von Drinnen.",
+            "Was geht da vor sich?"
         ],
         "interaction": [
             {
                 "actionText": "Schaue drinnen nach",
                 "resultText": [
-                    "Du gehst willst wieder rein um nachzusehen, was dort vor sich geht.",
+                    "Du begibst dich wieder zum Festsaal um zu gucken was dort vor sich geht.",
                     "Als du zur Tür gehst kommen dir panisch die restlichen Kultisten entgegen.",
-                    "Du siehst, wie dei Dämonin versucht irgendwas in die Luft zu Hexen, doch nichts passiert.",
-                    "Anscheinend fehlen ihr jegliche Dämonischen Kräfte.",
+                    "Du siehst, wie die Dämonin versucht Zaubersprüche zu wirken um Objekte in die Luft zu heben, jedoch nichts pasiert.",
+                    "Anscheinend fehlen ihr jegliche dämonischen Kräfte.",
                     "Das erklärt auch, warum die anderen Kultisten so panisch waren."
                 ],
                 "image": "./assets/skizzen/objekte/scene07rein.png",
@@ -306,7 +309,7 @@
                 "actionText": "Gehe weg",
                 "resultText": [
                     "Was auch immer dort vor sich geht, du willst damit nichts zu tun haben und gehst weg von den Feierlichkeiten.",
-                    "Bestimmt geben wieder alle dir die Schuld und dabei hast du doch garnichts gemacht."
+                    "Bestimmt geben alle wieder dir die Schuld und dabei hast du doch gar nichts gemacht."
                 ],
                 "image": "./assets/skizzen/objekte/scene07weg.png",
                 "position": {
@@ -323,14 +326,13 @@
         "id": 8,
         "backgroundImage": "./assets/skizzen/backgrounds/scene08.png",
         "texts": [ 
-            "Wieso hatte die Dämonin keine Macht?",
-            "War beim Ritual etwas schief gelaufen?",
-            "Eine tiefe Schuld erfasst dich.",
-            "Du musst dringend etwas tuen."
+            "Wieso hat der Zauber nicht gewirkt, hat die Dämonin keine Macht?",
+            "Ist beim Ritual etwas schief gelaufen? Eine tiefe Schuld erfasst dich.",
+            "Du musst dringend etwas tun."
         ],
         "interaction": [
             {
-                "actionText": "Mach einen Witz zur auflockerung",
+                "actionText": "Mach einen Witz zur Auflockerung",
                 "resultText": [
                     "'Wir können das Ritual doch einfach nochmal rückwärts durchführen', scherzt du.",
                     "Doch keiner scheint die Ironie in deiner Stimme zu hören.",
