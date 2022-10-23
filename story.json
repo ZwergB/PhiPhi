@@ -2,7 +2,79 @@
     "title": "Hier steht ein Titel",
     "firstChapter": 1,
     "story": [
-    {
+        {
+            "id": -1,
+            "backgroundImage": "./assets/skizzen/backgrounds/scene-01.png",
+            "texts": [ 
+                "Ups. Irgendwas ist schifgelaufen.",
+                "Vieleicht solltest du beim nächsten Mal probieren, dich nicht umzubringen."
+            ],
+            "interaction": [
+                {
+                    "actionText": "F%ßx§[",
+                    "resultText": [
+                        ""
+                    ],
+                    "image": "./assets/skizzen/objekte/crashed.png",
+                    "position": {
+                        "x": 300,
+                        "y": 397
+                    },
+                    "next": -1
+                },
+                {
+                    "actionText": "F%ßx§[",
+                    "resultText": [
+                        ""
+                    ],
+                    "image": "./assets/skizzen/objekte/crashed.png",
+                    "position": {
+                        "x": 450,
+                        "y": 200
+                    },
+                    "next": -1
+                },
+                {
+                    "actionText": "F%ßx§[",
+                    "resultText": [
+                        ""
+                    ],
+                    "image": "./assets/skizzen/objekte/crashed.png",
+                    "position": {
+                        "x": 885,
+                        "y": 500
+                    },
+                    "next": -1
+                },
+                {
+                    "actionText": "F%ßx§[",
+                    "resultText": [
+                        ""
+                    ],
+                    "image": "./assets/skizzen/objekte/crashed.png",
+                    "position": {
+                        "x": 0,
+                        "y": 300
+                    },
+                    "next": -1
+                },
+                {
+                    "actionText": "Zurück zum start",
+                    "resultText": [
+                        ""
+                    ],
+                    "image": "./assets/skizzen/objekte/scene-01start.png",
+                    "position": {
+                        "x": 400,
+                        "y": 400
+                    },
+                    "next": 1
+                }
+            ]
+    
+            
+        },
+        {
         "id": 1,
         "backgroundImage": "./assets/skizzen/backgrounds/scene01.png",
         "texts": [ 
