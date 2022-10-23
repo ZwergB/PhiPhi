@@ -177,7 +177,7 @@ function startText(t, next) {
     if (next !== undefined)
         nextId = next;
 
-    texts = t;
+    texts = t.slice();
     document.getElementById('texts').innerHTML = '';
     document.getElementById('main').addEventListener('click', nextText);
 
