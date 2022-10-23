@@ -204,10 +204,8 @@ function createActionElement(element) {
             const elements = document.getElementsByClassName('actionElement');
             for (const element of elements) {
                 element.setAttribute("active", false);
-            }
-            
+            }   
         }
-        
     }
 }
 

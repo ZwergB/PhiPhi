@@ -80,7 +80,7 @@
         "texts": [ 
             "Willkommen.",
             "Endlich ist es so weit.",
-            "Es müssen noch die letzten Vorbereitungen erledigt werden damit das große Ritual kann beginnen.",
+            "Es müssen noch die letzten Vorbereitungen getroffen werden damit das große Ritual beginnen kann.",
             "Die Herscherin wird wieder kommen und mit ihr wird es eine neue Weltordnung geben.",
             "Du möchtest bei den Vorbereitungen helfen."
         ],
@@ -89,7 +89,7 @@
                 "actionText": "Hilf mit die Kerzen zu platzieren",
                 "resultText": [
                     "Du holst die Kerzen",
-                    "Als du wieder zurück gehst, stolperst du über deine Füße und verteilst die Kerzen auf dem Boden",
+                    "Als du wieder zurück gehst, stolperst du über deine Füße und verteilst die Kerzen auf dem Boden.",
                     "Pass besser auf, dass das nicht gleich beim Ritual passiert!"
                 ],
                 "image": "./assets/skizzen/objekte/scene01kerzen.png",
@@ -218,7 +218,7 @@
                 "actionText": "Bring der Dämonin ein Getränk",
                 "resultText": [
                     "Du holst der Dämonin etwas zu trinken.",
-                    "Als du ihr den Kelch an die Lippen hälst verschüttest du einen großen Schluck des Weins auf ihren Umhang",
+                    "Als du ihr den Kelch an ihren Mund hälst verschüttest du einen großen Schluck des Weins auf den Umhang Wesens.",
                     "Panik steigt in dir auf."
                 ],
                 "image": "./assets/skizzen/objekte/scene03trinken.png",

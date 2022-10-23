@@ -29,12 +29,11 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: black;
+    background-color: rgb(193 181 164);
 
     font-family: Aldrich;
 }
 
-html, body {margin: 0; height: 100%; overflow: hidden}
 
 #main {
     padding: 25px;
@@ -44,23 +43,31 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     position: relative;
 }
 
+#background {
+    
+}
+
 
 #background img{
+    
+    
     width: 1200px;
     height: auto;   
 
     animation: offOn .3s;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
 }
 
 #texts {
     padding: 5px;
     position: absolute;
     height:15%;
-    width: 1200px;
+    width: 1190px;
     left:0;
-    
-    bottom: 0;
+    bottom: 5px;
     background-color: rgba(202, 202, 202, 0.5);
+    box-shadow: 2px 2px 4px rgb(129, 129, 129);
 
     font-size: 28px;
 
@@ -104,20 +111,20 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     transition: .2s opacity linear;
 
     pointer-events: none;
-  }
-  
-  .actionElement[active~="true"].tooltip:hover .tooltiptext {
-    opacity: 1;
-  }
+}
 
-  .actionElement[active~="true"]:active {
+.actionElement[active~="true"].tooltip:hover .tooltiptext {
+    opacity: 1;
+}
+
+.actionElement[active~="true"]:active {
     transform: translate(2px, 2px);
 
 }
 
-  .bold {
+.bold {
     font-weight: bold;
-  }
+}
 
 
 .copyAction {
