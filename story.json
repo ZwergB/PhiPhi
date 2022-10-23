@@ -1,6 +1,6 @@
 {
     "title": "Hier steht ein Titel",
-    "firstChapter": 5,
+    "firstChapter": 1,
     "story": [
         {
             "id": -1,
@@ -63,7 +63,7 @@
                     "resultText": [
                         ""
                     ],
-                    "image": "./assets/skizzen/objekte/scene-01start.png",
+                    "image": "./assets/skizzen/objekte/scene11weg.png",
                     "position": {
                         "x": 400,
                         "y": 400
@@ -410,7 +410,7 @@
                     "Doch keiner scheint die Ironie in deiner Stimme zu hören.",
                     "Nach und nach schauen dich die anderen fasziniert an und beginnen zu nicken.",
                     "Sie scheinen vollkommen überzeugt, das Ritual nochmals rückwärts durchzuführen.",
-                    "Da die meisten Sachen noch vorbereitet sind gibt es nicht mehr viel zu tun."
+                    "Da die meisten Sachen noch vorbereitet sind, gibt es nicht mehr viel zu tun."
                 ],
                 "image": "./assets/skizzen/objekte/scene08witz.png",
                 "position": {
@@ -449,12 +449,12 @@
             {
                 "actionText": "Katze locken",
                 "resultText": [
-                    "Du legst was zu Essen auf den Boden.",
+                    "Du legst etwas zu Essen auf den Boden.",
                     "Nach kurzem Warten kommt auch ein Tier, um die Nahrung zu fressen.",
                     "Jedoch ist es keine Katze, sondern eine Maus.",
                     "Dir bleibt wohl nichts anderes Übrig, als dich auf die Suche zu machen.",
                     "Du begibst dich auf die Suche nach Spuren.",
-                    "Doch direkt nach dem ersten Meter entdechst du große Kratzspuren die an dem Felsen sind."
+                    "Direkt nach dem ersten Meter entdechst du große Kratzspuren die an dem Felsen sind."
                     
                 ],
                 "image": "./assets/skizzen/objekte/scene09locken.png",
@@ -485,19 +485,19 @@
         "id": 10,
         "backgroundImage": "./assets/skizzen/backgrounds/scene10.png",
         "texts": [ 
-            "Da du dich für das Schlamassel verantwortlich fühlst, willst du helfen",
+            "Da du dich für das Schlamassel verantwortlich fühlst, willst du helfen.",
             "Es fehlt noch die Dämonin in der Mitte und eine Laterne, um bei der nun vorran geschrittenen Nacht die Verse noch lesen zu können."
         ],
         "interaction": [
             {
                 "actionText": "Laterne holen",
                 "resultText": [
-                    "Du holst die Laterne und stellst sie auf dem Pult neben dem Buch ab.",
+                    "Du holst die Laterne und stellst sie neben dem Pentagramm ab.",
                     "Leider war der Stand der Laterne aber nicht so sicher, wie du gedacht hattest.",
-                    "Mit einem lauten klirren fällt die Laterne zu Boden und entzündet die Kerzen",
-                    "Du füllt ein Rauschen deinen Kopf und du siehst einen roten Wirbel im Ritualkreis.",
+                    "Mit einem klirren fällt die Laterne um und entzündet die Kerzen.",
+                    "Da füllt ein Rauschen deinen Kopf und du siehst einen roten Wirbel im Ritualkreis.",
                     "Du hörst ein markerschütterndes Brüllen.",
-                    "Ohne nachzudenken, drehst du dich um und hechtest auf den nächsten Felsen."
+                    "Ohne nachzudenken drehst du dich um und hechtest auf den nächsten Felsen."
                     
                 ],
                 "image": "./assets/skizzen/objekte/scene10laterne.png",
@@ -531,7 +531,7 @@
         "id": 11,
         "backgroundImage": "./assets/skizzen/backgrounds/scene11.png",
         "texts": [ 
-            "Du folgst den Spuren und hörst hinter einem Felsen ein Knurren",
+            "Du folgst den Spuren und hörst hinter einem Felsen ein Knurren.",
             "Ein kalter Schauer läuft dir über den Rücken."
         ],
         "interaction": [
@@ -549,7 +549,7 @@
                     "x": 400,
                     "y": 150
                 },
-                "next": -2
+                "next": -1
             },
             {
                 "actionText": "heimlich weg gehen",
@@ -574,7 +574,7 @@
         "backgroundImage": "./assets/skizzen/backgrounds/scene12.png",
         "texts": [ 
             "In Mitten des Ritualkreises erblickst du eine Raubtier mit rot glühenden Augen.",
-            "Zerzaustes Fell steht in alle Richtungen ab.",
+            "Bedrohlich ragt es empor.",
             "Speichel tropft von seinen geflätschten Fängen.",
             "Du spürst, dass ein falscher Schritt dein Ende bedeuten könnte."
         ],
@@ -583,7 +583,7 @@
                 "actionText": "Fliehen",
                 "resultText": [
                     "Du machst einen ausgefallenen Sprung weg von der Bestie.",
-                    "Dein Fuß erwischt aber nur gerümpel.",
+                    "Dein Fuß erwischt aber nur Gerümpel.",
                     "Statt dich von dem Felsen weg zu stoßen, stößt du Steine los.",
                     "In einer Kettenreaktion lösen sich immer mehr Steine, die auf das Ungetüm hinabsausen.",
                     "Innerhalb eines Wimpernschlags ist nichts mehr von dem Wesen zu sehen.",
@@ -603,7 +603,7 @@
                 "actionText": "Auf Bestie springen",
                 "resultText": [
                     "Du machst einen ausgefallenen Sprung auf die Bestie zu.",
-                    "Dein Fuß erwischt aber nur gerümpel.",
+                    "Dein Fuß erwischt aber nur Gerümpel.",
                     "Statt dich von dem Felsen weg zu stoßen, stößt du Steine los.",
                     "In einer Kettenreaktion lösen sich immer mehr Steine, die auf das Ungetüm hinabsausen.",
                     "Innerhalb eines Wimpernschlags ist nichts mehr von dem Wesen zu sehen.",
@@ -622,12 +622,11 @@
                 "actionText": "Bestie anhimmeln",
                 "resultText": [
                     "Du beginnst deine besten Anmachsprüche auszupacken.",
-                    "An der gequälten Reaktion der Anwesenden, lässt sich deine Minne beurteilen.",
+                    "Dein nun folgenden Monolog hätte man auch gut zur Folter benutzen können.",
                     "Ohne Rücksicht auf verlusst legst du wieter zu.",
                     "Mit jedem weiteren Satz zieht sich das Ungetüm weiter zitternd zusammen.",
-                    "Ein herzzereißendes gejammer und fauchen ist zu hören.",
+                    "Ein herzzereißendes Gejammer und Fauchen ist zu hören.",
                     "Du siehst wie eine rote Energie aus dem Wesen in die Dämonin flieht.",
-                    "Sie siehst wie die Energie durch die Ritzen in die Dämonin strömt.",
                     "Zurück bleibt eine Ängsliche Katze die leise mautzt."
                 ],
                 "image": "./assets/skizzen/objekte/scene12anhimmeln.png",
