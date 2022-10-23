@@ -111,6 +111,25 @@ function createActionElement(element) {
     const img = document.createElement('img');
     img.src = element.image;
     div.appendChild(img);
+    img.addEventListener('mouseenter', () =>  {
+        if (div.getAttribute('active') == 'true') {
+            let path = img.src;
+            path = path.substring(0, path.length-4);
+            path += 'leuchtend.png'
+            img.src = path;
+        }
+    })
+    img.addEventListener('mouseleave', () =>  {
+        console.log(div);
+        if (div.getAttribute('active') == 'true' && img.src.includes('leuchtend.png')) {
+            let path = img.src; 
+            path = path.substring(0, path.length-('leuchtend.png').length);
+            path += '.png'
+            console.log(img.src);
+            img.src = path;
+        }
+})
+    
 
     const tooltipBox = document.createElement('div');
     tooltipBox.classList.add('tooltip')

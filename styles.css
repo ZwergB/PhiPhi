@@ -54,7 +54,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 
 .actionElement {
     position: absolute;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
     scale: 0.7;
 }
 
@@ -66,7 +66,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.363), -1px -1px 3px rgba(0, 0, 0, 0.363) ;
 }
 .actionElement[active~="true"]:hover {
-    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.363), -1px -1px 3px rgba(255, 255, 255, 0.363) ;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0), -1px -1px 3px rgba(255, 255, 255, 0) ;
 }
 
 .invis {
@@ -75,13 +75,13 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 
 .tooltip .tooltiptext {
     opacity: 0;
-    width: 120px;
+    
     background-color: black;
     color: #fff;
     text-align: center;
     border-radius: 6px;
-    padding: 5px 0;
-    font-size: 1.2em;
+    padding: 5px;
+    font-size: 1.8em;
     
     /* Position the tooltip */
     position: absolute;
