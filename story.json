@@ -222,7 +222,7 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene03trinken.png",
                 "position": {
-                    "x": 0,
+                    "x": 1000,
                     "y": 350
                 },
                 "next": 4
@@ -238,7 +238,7 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene03laufen.png",
                 "position": {
-                    "x": 0,
+                    "x": 1000,
                     "y": 450
                 },
                 "next": 5
@@ -265,8 +265,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene04panik.png",
                 "position": {
-                    "x": 500,
-                    "y": 0
+                    "x": 450,
+                    "y": 50
                 },
                 "next": 5
             },
@@ -281,8 +281,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene04umhang.png",
                 "position": {
-                    "x": 350,
-                    "y": 300
+                    "x": 300,
+                    "y": 480
                 },
                 "next": 5
             }
@@ -308,8 +308,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene05servieren.png",
                 "position": {
-                    "x": 130,
-                    "y": 390
+                    "x": 120,
+                    "y": 380
                 },
                 "next": 7
             },
@@ -323,8 +323,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene05essen.png",
                 "position": {
-                    "x": 430,
-                    "y": 430
+                    "x": 440,
+                    "y": 420
                 },
                 "next": 7
             },
@@ -342,7 +342,7 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene05flirten.png",
                 "position": {
-                    "x": 765,
+                    "x": 760,
                     "y": 280
                 },
                 "next": 8
