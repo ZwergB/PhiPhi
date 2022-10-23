@@ -4,6 +4,20 @@
          url('./assets/font/Livingstone.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }  
 
+/* aldrich-regular - latin */
+@font-face {
+    font-family: 'Aldrich';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/font/aldrich-v17-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../assets/font/aldrich-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/font/aldrich-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/font/aldrich-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../assets/font/aldrich-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/font/aldrich-v17-latin-regular.svg#Aldrich') format('svg'); /* Legacy iOS */
+  }
+
 
 body {
     margin: 0;
@@ -17,7 +31,7 @@ body {
     user-select: none;
     background-color: black;
 
-    font-family: LivingStone;
+    font-family: Aldrich;
 }
 
 html, body {margin: 0; height: 100%; overflow: hidden}
