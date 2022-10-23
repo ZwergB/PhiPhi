@@ -1,6 +1,6 @@
 {
     "title": "Hier steht ein Titel",
-    "firstChapter": 13,
+    "firstChapter": 1,
     "story": [
         {
             "id": -1,
@@ -223,8 +223,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene03trinken.png",
                 "position": {
-                    "x": 1000,
-                    "y": 350
+                    "x": 860,
+                    "y": 440
                 },
                 "next": 4
             },
