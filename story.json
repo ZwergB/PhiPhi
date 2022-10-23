@@ -51,7 +51,7 @@
                 "image": "./assets/skizzen/objekte/scene01anhaenger.png",
                 "position": {
                     "x": 370,
-                    "y": 205
+                    "y": 305
                 },
                 "next": 2
             }
@@ -136,8 +136,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene03daemon.png",
                 "position": {
-                    "x": 830,
-                    "y": 430
+                    "x": 480,
+                    "y": 220
                 },
                 "next": 4
             },
@@ -150,8 +150,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene03trinken.png",
                 "position": {
-                    "x": 700,
-                    "y": 400
+                    "x": 0,
+                    "y": 350
                 },
                 "next": 4
             },
@@ -166,8 +166,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene03laufen.png",
                 "position": {
-                    "x": 450,
-                    "y": 100
+                    "x": 0,
+                    "y": 450
                 },
                 "next": 5
             }
@@ -192,8 +192,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene04panik.png",
                 "position": {
-                    "x": 830,
-                    "y": 430
+                    "x": 500,
+                    "y": 0
                 },
                 "next": 5
             },
@@ -208,8 +208,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene04umhang.png",
                 "position": {
-                    "x": 700,
-                    "y": 400
+                    "x": 350,
+                    "y": 300
                 },
                 "next": 5
             }
@@ -234,8 +234,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene05servieren.png",
                 "position": {
-                    "x": 830,
-                    "y": 430
+                    "x": 130,
+                    "y": 390
                 },
                 "next": 7
             },
@@ -249,8 +249,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene05essen.png",
                 "position": {
-                    "x": 700,
-                    "y": 400
+                    "x": 430,
+                    "y": 430
                 },
                 "next": 7
             },
@@ -267,8 +267,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene05flirten.png",
                 "position": {
-                    "x": 700,
-                    "y": 400
+                    "x": 750,
+                    "y": 280
                 },
                 "next": 8
             }
@@ -297,8 +297,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene07rein.png",
                 "position": {
-                    "x": 830,
-                    "y": 430
+                    "x": 230,
+                    "y": 350
                 },
                 "next": 8
             },
@@ -310,8 +310,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene07weg.png",
                 "position": {
-                    "x": 700,
-                    "y": 400
+                    "x": 1000,
+                    "y": 250
                 },
                 "next": 9
             }
@@ -341,7 +341,7 @@
                 "image": "./assets/skizzen/objekte/scene08witz.png",
                 "position": {
                     "x": 830,
-                    "y": 430
+                    "y": 250
                 },
                 "next": 10
             },
@@ -353,8 +353,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene08fels.png",
                 "position": {
-                    "x": 700,
-                    "y": 400
+                    "x": 760,
+                    "y": 330
                 },
                 "next": 11
             }
@@ -364,7 +364,7 @@
     },
     {
         "id": 9,
-        "backgroundImage": "./assets/skizzen/backgrounds/scene07.png",
+        "backgroundImage": "./assets/skizzen/backgrounds/scene09.png",
         "texts": [ 
             "Als du dich abwendest, siehst du du ein weinendes Mädchen am Wegesrand.",
             "Sie sucht verzweifelt nach ihrer Katze.",
@@ -385,8 +385,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene09locken.png",
                 "position": {
-                    "x": 830,
-                    "y": 430
+                    "x": 550,
+                    "y": 210
                 },
                 "next": 11
             },
@@ -409,7 +409,7 @@
     },
     {
         "id": 10,
-        "backgroundImage": "./assets/skizzen/backgrounds/scene02.png",
+        "backgroundImage": "./assets/skizzen/backgrounds/scene10.png",
         "texts": [ 
             "Da du dich für das Schlamassel verantwortlich fühlst, willst du helfen",
             "Es fehlt noch die Dämonin in der Mitte und eine Laterne, um bei der nun vorran geschrittenen Nacht die Verse noch lesen zu können."
@@ -428,7 +428,7 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene10laterne.png",
                 "position": {
-                    "x": 830,
+                    "x": 50,
                     "y": 430
                 },
                 "next": 12
@@ -444,7 +444,7 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene10holen.png",
                 "position": {
-                    "x": 700,
+                    "x": 1000,
                     "y": 400
                 },
                 "next": 12
@@ -455,7 +455,7 @@
     },
      {
         "id": 11,
-        "backgroundImage": "./assets/skizzen/backgrounds/scene08.png",
+        "backgroundImage": "./assets/skizzen/backgrounds/scene11.png",
         "texts": [ 
             "Du folgst den Spuren und hörst hinter einem Felsen ein Knurren",
             "Ein kalter Schauer läuft dir über den Rücken."
@@ -472,8 +472,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene11anschleichen.png",
                 "position": {
-                    "x": 830,
-                    "y": 430
+                    "x": 400,
+                    "y": 150
                 },
                 "next": -2
             },
@@ -486,7 +486,7 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene11weg.png",
                 "position": {
-                    "x": 700,
+                    "x": 100,
                     "y": 400
                 },
                 "next": 12
@@ -497,7 +497,7 @@
     },
     {
         "id": 12,
-        "backgroundImage": "./assets/skizzen/backgrounds/scene03.png",
+        "backgroundImage": "./assets/skizzen/backgrounds/scene12.png",
         "texts": [ 
             "In Mitten des Ritualkreises erblickst du eine Raubtier mit rot glühenden Augen.",
             "Zerzaustes Fell steht in alle Richtungen ab.",
@@ -520,8 +520,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene12weg.png",
                 "position": {
-                    "x": 830,
-                    "y": 430
+                    "x": 0,
+                    "y": 0
                 },
                 "next": 13
             },
@@ -539,8 +539,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene12auf.png",
                 "position": {
-                    "x": 700,
-                    "y": 400
+                    "x": 100,
+                    "y": 100
                 },
                 "next": 13
             },
@@ -558,8 +558,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene12anhimmeln.png",
                 "position": {
-                    "x": 700,
-                    "y": 400
+                    "x": 500,
+                    "y": 250
                 },
                 "next": 13
             }
