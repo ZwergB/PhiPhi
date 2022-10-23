@@ -6,8 +6,8 @@
             "id": -1,
             "backgroundImage": "./assets/skizzen/backgrounds/scene-01.png",
             "texts": [ 
-                "Ups. Irgendwas ist schifgelaufen.",
-                "Vieleicht solltest du beim nächsten Mal probieren, dich nicht umzubringen."
+                "Ups. Irgendwas ist schiefgelaufen.",
+                "Vielleicht solltest du beim nächsten Mal probieren, dich nicht umzubringen."
             ],
             "interaction": [
                 {
@@ -59,7 +59,7 @@
                     "next": -1
                 },
                 {
-                    "actionText": "Zurück zum start",
+                    "actionText": "Zurück zum Start",
                     "resultText": [
                         ""
                     ],
@@ -78,7 +78,7 @@
         "id": 1,
         "backgroundImage": "./assets/skizzen/backgrounds/scene01.png",
         "texts": [ 
-            "Wilkommen.",
+            "Willkommen.",
             "Endlich ist es so weit.",
             "Es müssen noch die letzten Vorbereitungen erledigt werden damit das große Ritual kann beginnen.",
             "Die Herscherin wird wieder kommen und mit ihr wird es eine neue Weltordnung geben.",

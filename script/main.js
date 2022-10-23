@@ -8,6 +8,8 @@ let currentId;
 let nextId;
 let firstText = true;
 
+let lastText;
+
 function init() {
     console.log('init');
     readJson('./story.json').then(res => {
@@ -66,10 +68,18 @@ function nextText() {
     if (firstText) {
         t.classList.add('bold');
     }
+
+    if (lastText !== undefined) {
+        clearInterval(lastText.int);
+        lastText.e.innerHTML = '&#160;' + lastText.text;
+    }
+
     firstText = false;
     t.innerHTML = '&#160;';
-    printLetterByLetter(t, texts[0], 25)
+    const int = printLetterByLetter(t, texts[0], 25)
     document.getElementById('texts').appendChild(t);
+    lastText = {e: t, text: texts[0], int: int};
+    console.log(lastText)
     texts.shift();
     t.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 
@@ -176,4 +186,5 @@ async function readJson (url) {
         }
     }, speed);
 
+    return interval;
 }
