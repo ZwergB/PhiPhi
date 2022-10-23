@@ -10,11 +10,31 @@ let firstText = true;
 
 let lastText;
 
+const images = [];
+
 function init() {
     console.log('init');
     readJson('./story.json').then(res => {
+
+        preloadImages(res);
         openStory(res)
     });
+}
+
+function preloadImages(res) {
+    for (const chap of res.story) {
+        images.push(new Image());
+        images[images.length-1].img = chap.backgroundImage;    
+
+        if(chap.interaction != null) {
+            for (const int of chap.interaction) {
+                images.push(new Image());
+                images[images.length-1].img = int.image;
+            }
+        }        
+    }
+
+    console.info(images);
 }
 
 function openStory(s) {
