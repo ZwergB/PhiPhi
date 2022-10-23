@@ -63,7 +63,7 @@
                     "resultText": [
                         ""
                     ],
-                    "image": "./assets/skizzen/objekte/scene11weg.png",
+                    "image": "./assets/skizzen/objekte/scene-01pfeil.png",
                     "position": {
                         "x": 400,
                         "y": 400
@@ -657,7 +657,7 @@
                 "resultText": [
                     ""
                 ],
-                "image": "./assets/skizzen/objekte/scene11weg.png",
+                "image": "./assets/skizzen/objekte/scene-01pfeil.png",
                 "position": {
                     "x": 0,
                     "y": 400
