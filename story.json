@@ -1,6 +1,6 @@
 {
     "title": "Hier steht ein Titel",
-    "firstChapter": 1,
+    "firstChapter": 7,
     "story": [
         {
             "id": -1,
@@ -369,20 +369,20 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene07rein.png",
                 "position": {
-                    "x": 230,
-                    "y": 350
+                    "x": 100,
+                    "y": 400
                 },
                 "next": 8
             },
             {
-                "actionText": "Gehe weg",
+                "actionText": "Gehe zum Kind",
                 "resultText": [
                     "Was auch immer dort vor sich geht, du willst damit nichts zu tun haben und gehst weg von den Feierlichkeiten.",
                     "Bestimmt geben wieder alle dir die Schuld und dabei hast du doch garnichts gemacht."
                 ],
                 "image": "./assets/skizzen/objekte/scene07weg.png",
                 "position": {
-                    "x": 1000,
+                    "x": 550,
                     "y": 250
                 },
                 "next": 9
@@ -457,8 +457,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene09locken.png",
                 "position": {
-                    "x": 550,
-                    "y": 210
+                    "x": 600,
+                    "y": 300
                 },
                 "next": 11
             },
@@ -470,8 +470,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene09suchen.png",
                 "position": {
-                    "x": 700,
-                    "y": 400
+                    "x": 790,
+                    "y": 450
                 },
                 "next": 11
             }
