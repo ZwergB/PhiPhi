@@ -29,7 +29,7 @@
                     ],
                     "image": "./assets/skizzen/objekte/crashed.png",
                     "position": {
-                        "x": 450,
+                        "x": 300,
                         "y": 200
                     },
                     "next": -1
@@ -63,10 +63,10 @@
                     "resultText": [
                         ""
                     ],
-                    "image": "./assets/skizzen/objekte/scene11weg.png",
+                    "image": "./assets/skizzen/objekte/scene-01pfeil.png",
                     "position": {
-                        "x": 400,
-                        "y": 400
+                        "x": 500,
+                        "y": 200
                     },
                     "next": 1
                 }
@@ -80,7 +80,7 @@
         "texts": [ 
             "Willkommen.",
             "Endlich ist es so weit.",
-            "Es müssen noch die letzten Vorbereitungen erledigt werden damit das große Ritual kann beginnen.",
+            "Es müssen noch die letzten Vorbereitungen getroffen werden damit das große Ritual beginnen kann.",
             "Die Herscherin wird wieder kommen und mit ihr wird es eine neue Weltordnung geben.",
             "Du möchtest bei den Vorbereitungen helfen."
         ],
@@ -89,7 +89,7 @@
                 "actionText": "Hilf mit die Kerzen zu platzieren",
                 "resultText": [
                     "Du holst die Kerzen",
-                    "Als du wieder zurück gehst, stolperst du über deine Füße und verteilst die Kerzen auf dem Boden",
+                    "Als du wieder zurück gehst, stolperst du über deine Füße und verteilst die Kerzen auf dem Boden.",
                     "Pass besser auf, dass das nicht gleich beim Ritual passiert!"
                 ],
                 "image": "./assets/skizzen/objekte/scene01kerzen.png",
@@ -218,13 +218,13 @@
                 "actionText": "Bring der Dämonin ein Getränk",
                 "resultText": [
                     "Du holst der Dämonin etwas zu trinken.",
-                    "Als du ihr den Kelch an die Lippen hälst verschüttest du einen großen Schluck des Weins auf ihren Umhang",
+                    "Als du ihr den Kelch an ihren Mund hälst verschüttest du einen großen Schluck des Weins auf den Umhang Wesens.",
                     "Panik steigt in dir auf."
                 ],
                 "image": "./assets/skizzen/objekte/scene03trinken.png",
                 "position": {
-                    "x": 1000,
-                    "y": 350
+                    "x": 860,
+                    "y": 440
                 },
                 "next": 4
             },
@@ -649,7 +649,8 @@
             "Credits:",
             "Head of beautifull art: brownie2705 | Lissi",
             "Head of gracefull code: ZwergB | Ben",
-            "Head of confusing story: 404cokieNotFound | Lennart"
+            "Head of confusing story: 404cokieNotFound | Lennart",
+            "Sound (definitely not made on previous jam): 404cokieNotFound | Lennart"
         ],
         "interaction": [
             {
@@ -657,10 +658,10 @@
                 "resultText": [
                     ""
                 ],
-                "image": "./assets/skizzen/objekte/scene11weg.png",
+                "image": "./assets/skizzen/objekte/scene-01pfeil.png",
                 "position": {
                     "x": 0,
-                    "y": 400
+                    "y": 360
                 },
                 "next": 1
             }
