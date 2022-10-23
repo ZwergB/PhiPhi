@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'LivingStone';
+    src: url('./assets/font/Livingstone.otf') format('otf'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('./assets/font/Livingstone.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+
 body {
     margin: 0;
 
@@ -9,6 +16,8 @@ body {
     -ms-user-select: none;
     user-select: none;
     background-color: black;
+
+    font-family: LivingStone;
 }
 
 html, body {margin: 0; height: 100%; overflow: hidden}
