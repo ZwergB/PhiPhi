@@ -29,7 +29,7 @@
                     ],
                     "image": "./assets/skizzen/objekte/crashed.png",
                     "position": {
-                        "x": 450,
+                        "x": 300,
                         "y": 200
                     },
                     "next": -1
@@ -63,10 +63,10 @@
                     "resultText": [
                         ""
                     ],
-                    "image": "./assets/skizzen/objekte/scene11weg.png",
+                    "image": "./assets/skizzen/objekte/scene-01pfeil.png",
                     "position": {
-                        "x": 400,
-                        "y": 400
+                        "x": 500,
+                        "y": 200
                     },
                     "next": 1
                 }
@@ -223,8 +223,8 @@
                 ],
                 "image": "./assets/skizzen/objekte/scene03trinken.png",
                 "position": {
-                    "x": 1000,
-                    "y": 350
+                    "x": 860,
+                    "y": 440
                 },
                 "next": 4
             },
@@ -649,7 +649,8 @@
             "Credits:",
             "Head of beautifull art: brownie2705 | Lissi",
             "Head of gracefull code: ZwergB | Ben",
-            "Head of confusing story: 404cokieNotFound | Lennart"
+            "Head of confusing story: 404cokieNotFound | Lennart",
+            "Sound (definitely not made on previous jam): 404cokieNotFound | Lennart"
         ],
         "interaction": [
             {
@@ -657,10 +658,10 @@
                 "resultText": [
                     ""
                 ],
-                "image": "./assets/skizzen/objekte/scene11weg.png",
+                "image": "./assets/skizzen/objekte/scene-01pfeil.png",
                 "position": {
                     "x": 0,
-                    "y": 400
+                    "y": 360
                 },
                 "next": 1
             }
